@@ -1,0 +1,27 @@
+# Final
+
+training_args: # training arguments for weighted cross entropy loss with all turns, preceding-1 turn
+  # Optimization
+  learning_rate: 0.00002 # 2e-5
+  num_train_epochs: 10
+  warmup_ratio: 0.10
+  weight_decay: 0.01
+
+  # Batch size
+  per_device_train_batch_size: 16 ## DAM -> enough batch size is needed to include as many labels as possible per batch
+  per_device_eval_batch_size: 16
+
+  # Evaluation
+  eval_strategy: "epoch"
+
+  # Checkpoint
+  save_strategy: "epoch"
+  
+  load_best_model_at_end: True
+  metric_for_best_model: "auc_macro_ovr"
+  greater_is_better: True # maximize AUC score
+
+  # Logging
+  logging_strategy: "steps"
+  logging_steps: 10
+  report_to: "none"

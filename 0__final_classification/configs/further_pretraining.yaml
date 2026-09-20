@@ -1,0 +1,27 @@
+training_args:
+  # Optimization
+  learning_rate: 0.00004 # 4e-5
+  num_train_epochs: 3
+  warmup_ratio: 0.06
+  weight_decay: 0.01
+
+  # Batch size
+  per_device_train_batch_size: 32
+  per_device_eval_batch_size: 32
+
+  # Evaluation
+  eval_strategy: "epoch"
+
+  # Checkpoint
+  save_strategy: "epoch"
+  load_best_model_at_end: true
+  metric_for_best_model: "eval_loss"
+  greater_is_better: false
+
+  # Logging
+  logging_strategy: "steps"
+  logging_steps: 500
+  report_to: "none"
+  
+  # Accelerator
+  fp16: True
