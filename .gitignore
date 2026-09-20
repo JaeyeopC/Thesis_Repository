@@ -13,3 +13,18 @@ __pycache__/
 1__tutor_response_generation__preference_dataset_construction/poetry.toml
 1__tutor_response_generation__preference_dataset_construction/pyproject.toml
 
+2__SFT_DPO__/human_gpt_agreement_results/
+2__SFT_DPO__/llama3-8b-instruct-dpo-adapter--threshold_01/
+2__SFT_DPO__/llama3-8b-instruct-dpo-adapter--threshold_03/
+2__SFT_DPO__/llama3-8b-instruct-dpo-adapter--threshold_05/
+2__SFT_DPO__/llama3-8b-instruct-sft-adapter/
+2__SFT_DPO__/survey_templates/
+2__SFT_DPO__/_compare_human_gpt_agreement.ipynb
+2__SFT_DPO__/_create_survey_template__human_annotation.ipynb
+2__SFT_DPO__/_survey_template__human_annotation.html
+2__SFT_DPO__/poetry.lock
+2__SFT_DPO__/poetry.toml
+2__SFT_DPO__/pyproject.toml
+2__SFT_DPO__/survey_responses.csv
+2__SFT_DPO__/data_preference_train_only/
+

@@ -1,0 +1,688 @@
+judge_model,llm_name,error_category,n,dimension,label,count,proportion
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,mistake_identification,Yes,81,0.9529411764705882
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,mistake_identification,To some extent,3,0.03529411764705882
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,mistake_identification,No,1,0.011764705882352941
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,mistake_location,Yes,79,0.9294117647058824
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,mistake_location,To some extent,4,0.047058823529411764
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,mistake_location,No,2,0.023529411764705882
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,revealing_answer,No,83,0.9764705882352941
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,revealing_answer,Yes (incorrect),2,0.023529411764705882
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,providing_guidance,Yes,74,0.8705882352941177
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,providing_guidance,To some extent,10,0.11764705882352941
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,providing_guidance,No,1,0.011764705882352941
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,actionability,Yes,74,0.8705882352941177
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,actionability,To some extent,8,0.09411764705882353
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,actionability,No,3,0.03529411764705882
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,coherence,Yes,85,1.0
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,tutor_tone,Encouraging,85,1.0
+gpt-4.1-mini,base,misunderstanding_of_a_question,85,human_likeness,Yes,85,1.0
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,mistake_identification,Yes,67,0.9436619718309859
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,mistake_identification,No,2,0.028169014084507043
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,mistake_identification,To some extent,2,0.028169014084507043
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,mistake_location,Yes,65,0.9154929577464789
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,mistake_location,To some extent,4,0.056338028169014086
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,mistake_location,No,2,0.028169014084507043
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,revealing_answer,No,70,0.9859154929577465
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,revealing_answer,Yes (correct),1,0.014084507042253521
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,providing_guidance,Yes,60,0.8450704225352113
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,providing_guidance,To some extent,9,0.1267605633802817
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,providing_guidance,No,2,0.028169014084507043
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,actionability,Yes,60,0.8450704225352113
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,actionability,To some extent,8,0.11267605633802817
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,actionability,No,3,0.04225352112676056
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,coherence,Yes,71,1.0
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,tutor_tone,Encouraging,71,1.0
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,human_likeness,Yes,70,0.9859154929577465
+gpt-4.1-mini,base,extra_quantity_or_missing_quantity,71,human_likeness,No,1,0.014084507042253521
+gpt-4.1-mini,base,none_of_the_above,26,mistake_identification,Yes,26,1.0
+gpt-4.1-mini,base,none_of_the_above,26,mistake_location,Yes,26,1.0
+gpt-4.1-mini,base,none_of_the_above,26,revealing_answer,No,26,1.0
+gpt-4.1-mini,base,none_of_the_above,26,providing_guidance,Yes,25,0.9615384615384616
+gpt-4.1-mini,base,none_of_the_above,26,providing_guidance,To some extent,1,0.038461538461538464
+gpt-4.1-mini,base,none_of_the_above,26,actionability,Yes,25,0.9615384615384616
+gpt-4.1-mini,base,none_of_the_above,26,actionability,No,1,0.038461538461538464
+gpt-4.1-mini,base,none_of_the_above,26,coherence,Yes,26,1.0
+gpt-4.1-mini,base,none_of_the_above,26,tutor_tone,Encouraging,26,1.0
+gpt-4.1-mini,base,none_of_the_above,26,human_likeness,Yes,26,1.0
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,mistake_identification,Yes,41,0.9761904761904762
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,mistake_identification,To some extent,1,0.023809523809523808
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,mistake_location,Yes,40,0.9523809523809523
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,mistake_location,No,1,0.023809523809523808
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,mistake_location,To some extent,1,0.023809523809523808
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,revealing_answer,No,41,0.9761904761904762
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,revealing_answer,Yes (incorrect),1,0.023809523809523808
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,providing_guidance,Yes,37,0.8809523809523809
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,providing_guidance,To some extent,5,0.11904761904761904
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,actionability,Yes,37,0.8809523809523809
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,actionability,To some extent,3,0.07142857142857142
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,actionability,No,2,0.047619047619047616
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,coherence,Yes,42,1.0
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,tutor_tone,Encouraging,42,1.0
+gpt-4.1-mini,base,missing_wrong_factual_knowledge,42,human_likeness,Yes,42,1.0
+gpt-4.1-mini,base,calculation_error_easily_solved_by_a_calculator,38,mistake_identification,Yes,37,0.9736842105263158
+gpt-4.1-mini,base,calculation_error_easily_solved_by_a_calculator,38,mistake_identification,No,1,0.02631578947368421
+gpt-4.1-mini,base,calculation_error_easily_solved_by_a_calculator,38,mistake_location,Yes,37,0.9736842105263158
+gpt-4.1-mini,base,calculation_error_easily_solved_by_a_calculator,38,mistake_location,No,1,0.02631578947368421
+gpt-4.1-mini,base,calculation_error_easily_solved_by_a_calculator,38,revealing_answer,No,38,1.0
+gpt-4.1-mini,base,calculation_error_easily_solved_by_a_calculator,38,providing_guidance,Yes,36,0.9473684210526315
+gpt-4.1-mini,base,calculation_error_easily_solved_by_a_calculator,38,providing_guidance,To some extent,2,0.05263157894736842
+gpt-4.1-mini,base,calculation_error_easily_solved_by_a_calculator,38,actionability,Yes,36,0.9473684210526315
+gpt-4.1-mini,base,calculation_error_easily_solved_by_a_calculator,38,actionability,To some extent,1,0.02631578947368421
+gpt-4.1-mini,base,calculation_error_easily_solved_by_a_calculator,38,actionability,No,1,0.02631578947368421
+gpt-4.1-mini,base,calculation_error_easily_solved_by_a_calculator,38,coherence,Yes,38,1.0
+gpt-4.1-mini,base,calculation_error_easily_solved_by_a_calculator,38,tutor_tone,Encouraging,38,1.0
+gpt-4.1-mini,base,calculation_error_easily_solved_by_a_calculator,38,human_likeness,Yes,38,1.0
+gpt-4.1-mini,base,reached_correct_solution_but_proceeded_further,21,mistake_identification,Yes,19,0.9047619047619048
+gpt-4.1-mini,base,reached_correct_solution_but_proceeded_further,21,mistake_identification,To some extent,2,0.09523809523809523
+gpt-4.1-mini,base,reached_correct_solution_but_proceeded_further,21,mistake_location,Yes,19,0.9047619047619048
+gpt-4.1-mini,base,reached_correct_solution_but_proceeded_further,21,mistake_location,To some extent,2,0.09523809523809523
+gpt-4.1-mini,base,reached_correct_solution_but_proceeded_further,21,revealing_answer,No,21,1.0
+gpt-4.1-mini,base,reached_correct_solution_but_proceeded_further,21,providing_guidance,Yes,19,0.9047619047619048
+gpt-4.1-mini,base,reached_correct_solution_but_proceeded_further,21,providing_guidance,To some extent,2,0.09523809523809523
+gpt-4.1-mini,base,reached_correct_solution_but_proceeded_further,21,actionability,Yes,19,0.9047619047619048
+gpt-4.1-mini,base,reached_correct_solution_but_proceeded_further,21,actionability,To some extent,2,0.09523809523809523
+gpt-4.1-mini,base,reached_correct_solution_but_proceeded_further,21,coherence,Yes,20,0.9523809523809523
+gpt-4.1-mini,base,reached_correct_solution_but_proceeded_further,21,coherence,No,1,0.047619047619047616
+gpt-4.1-mini,base,reached_correct_solution_but_proceeded_further,21,tutor_tone,Encouraging,21,1.0
+gpt-4.1-mini,base,reached_correct_solution_but_proceeded_further,21,human_likeness,Yes,21,1.0
+gpt-4.1-mini,base,unit_conversion_error,15,mistake_identification,Yes,13,0.8666666666666667
+gpt-4.1-mini,base,unit_conversion_error,15,mistake_identification,To some extent,2,0.13333333333333333
+gpt-4.1-mini,base,unit_conversion_error,15,mistake_location,Yes,12,0.8
+gpt-4.1-mini,base,unit_conversion_error,15,mistake_location,To some extent,3,0.2
+gpt-4.1-mini,base,unit_conversion_error,15,revealing_answer,No,15,1.0
+gpt-4.1-mini,base,unit_conversion_error,15,providing_guidance,Yes,13,0.8666666666666667
+gpt-4.1-mini,base,unit_conversion_error,15,providing_guidance,To some extent,2,0.13333333333333333
+gpt-4.1-mini,base,unit_conversion_error,15,actionability,Yes,13,0.8666666666666667
+gpt-4.1-mini,base,unit_conversion_error,15,actionability,To some extent,1,0.06666666666666667
+gpt-4.1-mini,base,unit_conversion_error,15,actionability,No,1,0.06666666666666667
+gpt-4.1-mini,base,unit_conversion_error,15,coherence,Yes,15,1.0
+gpt-4.1-mini,base,unit_conversion_error,15,tutor_tone,Encouraging,15,1.0
+gpt-4.1-mini,base,unit_conversion_error,15,human_likeness,Yes,15,1.0
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,mistake_identification,Yes,53,0.6235294117647059
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,mistake_identification,No,22,0.25882352941176473
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,mistake_identification,To some extent,10,0.11764705882352941
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,mistake_location,Yes,40,0.47058823529411764
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,mistake_location,No,31,0.36470588235294116
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,mistake_location,To some extent,14,0.16470588235294117
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,revealing_answer,No,64,0.7529411764705882
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,revealing_answer,Yes (incorrect),17,0.2
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,revealing_answer,Yes (correct),4,0.047058823529411764
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,providing_guidance,No,43,0.5058823529411764
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,providing_guidance,To some extent,33,0.38823529411764707
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,providing_guidance,Yes,9,0.10588235294117647
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,actionability,No,44,0.5176470588235295
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,actionability,To some extent,32,0.3764705882352941
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,actionability,Yes,9,0.10588235294117647
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,coherence,Yes,78,0.9176470588235294
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,coherence,No,7,0.08235294117647059
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,tutor_tone,Neutral,65,0.7647058823529411
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,tutor_tone,Encouraging,20,0.23529411764705882
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,human_likeness,Yes,41,0.4823529411764706
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,human_likeness,To some extent,32,0.3764705882352941
+gpt-4.1-mini,dpo_01,misunderstanding_of_a_question,85,human_likeness,No,12,0.1411764705882353
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,mistake_identification,Yes,42,0.5915492957746479
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,mistake_identification,No,16,0.22535211267605634
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,mistake_identification,To some extent,13,0.18309859154929578
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,mistake_location,Yes,35,0.49295774647887325
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,mistake_location,No,23,0.323943661971831
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,mistake_location,To some extent,13,0.18309859154929578
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,revealing_answer,No,47,0.6619718309859155
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,revealing_answer,Yes (incorrect),21,0.29577464788732394
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,revealing_answer,Yes (correct),3,0.04225352112676056
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,providing_guidance,No,37,0.5211267605633803
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,providing_guidance,To some extent,25,0.352112676056338
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,providing_guidance,Yes,9,0.1267605633802817
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,actionability,No,40,0.5633802816901409
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,actionability,To some extent,22,0.30985915492957744
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,actionability,Yes,9,0.1267605633802817
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,coherence,Yes,63,0.8873239436619719
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,coherence,No,8,0.11267605633802817
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,tutor_tone,Neutral,55,0.7746478873239436
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,tutor_tone,Encouraging,16,0.22535211267605634
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,human_likeness,Yes,30,0.4225352112676056
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,human_likeness,No,23,0.323943661971831
+gpt-4.1-mini,dpo_01,extra_quantity_or_missing_quantity,71,human_likeness,To some extent,18,0.2535211267605634
+gpt-4.1-mini,dpo_01,none_of_the_above,26,mistake_identification,Yes,21,0.8076923076923077
+gpt-4.1-mini,dpo_01,none_of_the_above,26,mistake_identification,No,3,0.11538461538461539
+gpt-4.1-mini,dpo_01,none_of_the_above,26,mistake_identification,To some extent,2,0.07692307692307693
+gpt-4.1-mini,dpo_01,none_of_the_above,26,mistake_location,Yes,17,0.6538461538461539
+gpt-4.1-mini,dpo_01,none_of_the_above,26,mistake_location,No,7,0.2692307692307692
+gpt-4.1-mini,dpo_01,none_of_the_above,26,mistake_location,To some extent,2,0.07692307692307693
+gpt-4.1-mini,dpo_01,none_of_the_above,26,revealing_answer,No,17,0.6538461538461539
+gpt-4.1-mini,dpo_01,none_of_the_above,26,revealing_answer,Yes (incorrect),7,0.2692307692307692
+gpt-4.1-mini,dpo_01,none_of_the_above,26,revealing_answer,Yes (correct),2,0.07692307692307693
+gpt-4.1-mini,dpo_01,none_of_the_above,26,providing_guidance,No,12,0.46153846153846156
+gpt-4.1-mini,dpo_01,none_of_the_above,26,providing_guidance,Yes,8,0.3076923076923077
+gpt-4.1-mini,dpo_01,none_of_the_above,26,providing_guidance,To some extent,6,0.23076923076923078
+gpt-4.1-mini,dpo_01,none_of_the_above,26,actionability,No,14,0.5384615384615384
+gpt-4.1-mini,dpo_01,none_of_the_above,26,actionability,Yes,8,0.3076923076923077
+gpt-4.1-mini,dpo_01,none_of_the_above,26,actionability,To some extent,4,0.15384615384615385
+gpt-4.1-mini,dpo_01,none_of_the_above,26,coherence,Yes,23,0.8846153846153846
+gpt-4.1-mini,dpo_01,none_of_the_above,26,coherence,No,3,0.11538461538461539
+gpt-4.1-mini,dpo_01,none_of_the_above,26,tutor_tone,Neutral,17,0.6538461538461539
+gpt-4.1-mini,dpo_01,none_of_the_above,26,tutor_tone,Encouraging,9,0.34615384615384615
+gpt-4.1-mini,dpo_01,none_of_the_above,26,human_likeness,Yes,16,0.6153846153846154
+gpt-4.1-mini,dpo_01,none_of_the_above,26,human_likeness,To some extent,6,0.23076923076923078
+gpt-4.1-mini,dpo_01,none_of_the_above,26,human_likeness,No,4,0.15384615384615385
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,mistake_identification,Yes,25,0.5952380952380952
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,mistake_identification,To some extent,9,0.21428571428571427
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,mistake_identification,No,8,0.19047619047619047
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,mistake_location,Yes,18,0.42857142857142855
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,mistake_location,No,14,0.3333333333333333
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,mistake_location,To some extent,10,0.23809523809523808
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,revealing_answer,No,27,0.6428571428571429
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,revealing_answer,Yes (incorrect),14,0.3333333333333333
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,revealing_answer,Yes (correct),1,0.023809523809523808
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,providing_guidance,No,24,0.5714285714285714
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,providing_guidance,To some extent,14,0.3333333333333333
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,providing_guidance,Yes,4,0.09523809523809523
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,actionability,No,29,0.6904761904761905
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,actionability,To some extent,9,0.21428571428571427
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,actionability,Yes,4,0.09523809523809523
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,coherence,Yes,37,0.8809523809523809
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,coherence,No,5,0.11904761904761904
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,tutor_tone,Neutral,34,0.8095238095238095
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,tutor_tone,Encouraging,8,0.19047619047619047
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,human_likeness,Yes,20,0.47619047619047616
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,human_likeness,To some extent,14,0.3333333333333333
+gpt-4.1-mini,dpo_01,missing_wrong_factual_knowledge,42,human_likeness,No,8,0.19047619047619047
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,mistake_identification,Yes,26,0.6842105263157895
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,mistake_identification,No,7,0.18421052631578946
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,mistake_identification,To some extent,5,0.13157894736842105
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,mistake_location,Yes,23,0.6052631578947368
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,mistake_location,No,10,0.2631578947368421
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,mistake_location,To some extent,5,0.13157894736842105
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,revealing_answer,No,26,0.6842105263157895
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,revealing_answer,Yes (incorrect),10,0.2631578947368421
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,revealing_answer,Yes (correct),2,0.05263157894736842
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,providing_guidance,No,17,0.4473684210526316
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,providing_guidance,To some extent,13,0.34210526315789475
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,providing_guidance,Yes,8,0.21052631578947367
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,actionability,No,17,0.4473684210526316
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,actionability,To some extent,13,0.34210526315789475
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,actionability,Yes,8,0.21052631578947367
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,coherence,Yes,36,0.9473684210526315
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,coherence,No,2,0.05263157894736842
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,tutor_tone,Neutral,30,0.7894736842105263
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,tutor_tone,Encouraging,8,0.21052631578947367
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,human_likeness,Yes,19,0.5
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,human_likeness,To some extent,13,0.34210526315789475
+gpt-4.1-mini,dpo_01,calculation_error_easily_solved_by_a_calculator,38,human_likeness,No,6,0.15789473684210525
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,mistake_identification,Yes,13,0.6190476190476191
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,mistake_identification,No,5,0.23809523809523808
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,mistake_identification,To some extent,3,0.14285714285714285
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,mistake_location,Yes,12,0.5714285714285714
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,mistake_location,No,6,0.2857142857142857
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,mistake_location,To some extent,3,0.14285714285714285
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,revealing_answer,No,16,0.7619047619047619
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,revealing_answer,Yes (correct),4,0.19047619047619047
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,revealing_answer,Yes (incorrect),1,0.047619047619047616
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,providing_guidance,No,10,0.47619047619047616
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,providing_guidance,To some extent,7,0.3333333333333333
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,providing_guidance,Yes,4,0.19047619047619047
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,actionability,No,12,0.5714285714285714
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,actionability,To some extent,5,0.23809523809523808
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,actionability,Yes,4,0.19047619047619047
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,coherence,Yes,19,0.9047619047619048
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,coherence,No,2,0.09523809523809523
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,tutor_tone,Neutral,13,0.6190476190476191
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,tutor_tone,Encouraging,8,0.38095238095238093
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,human_likeness,Yes,11,0.5238095238095238
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,human_likeness,To some extent,7,0.3333333333333333
+gpt-4.1-mini,dpo_01,reached_correct_solution_but_proceeded_further,21,human_likeness,No,3,0.14285714285714285
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,mistake_identification,Yes,8,0.5333333333333333
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,mistake_identification,To some extent,4,0.26666666666666666
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,mistake_identification,No,3,0.2
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,mistake_location,Yes,6,0.4
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,mistake_location,No,5,0.3333333333333333
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,mistake_location,To some extent,4,0.26666666666666666
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,revealing_answer,No,12,0.8
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,revealing_answer,Yes (incorrect),3,0.2
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,providing_guidance,To some extent,8,0.5333333333333333
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,providing_guidance,No,6,0.4
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,providing_guidance,Yes,1,0.06666666666666667
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,actionability,No,8,0.5333333333333333
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,actionability,To some extent,6,0.4
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,actionability,Yes,1,0.06666666666666667
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,coherence,Yes,15,1.0
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,tutor_tone,Neutral,10,0.6666666666666666
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,tutor_tone,Encouraging,5,0.3333333333333333
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,human_likeness,Yes,7,0.4666666666666667
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,human_likeness,To some extent,6,0.4
+gpt-4.1-mini,dpo_01,unit_conversion_error,15,human_likeness,No,2,0.13333333333333333
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,mistake_identification,Yes,55,0.6470588235294118
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,mistake_identification,No,23,0.27058823529411763
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,mistake_identification,To some extent,7,0.08235294117647059
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,mistake_location,Yes,44,0.5176470588235295
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,mistake_location,No,25,0.29411764705882354
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,mistake_location,To some extent,16,0.18823529411764706
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,revealing_answer,No,78,0.9176470588235294
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,revealing_answer,Yes (incorrect),7,0.08235294117647059
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,providing_guidance,To some extent,38,0.4470588235294118
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,providing_guidance,No,28,0.32941176470588235
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,providing_guidance,Yes,19,0.2235294117647059
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,actionability,No,32,0.3764705882352941
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,actionability,To some extent,30,0.35294117647058826
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,actionability,Yes,23,0.27058823529411763
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,coherence,Yes,82,0.9647058823529412
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,coherence,No,3,0.03529411764705882
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,tutor_tone,Neutral,43,0.5058823529411764
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,tutor_tone,Encouraging,42,0.49411764705882355
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,human_likeness,Yes,61,0.7176470588235294
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,human_likeness,To some extent,19,0.2235294117647059
+gpt-4.1-mini,dpo_03,misunderstanding_of_a_question,85,human_likeness,No,5,0.058823529411764705
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,mistake_identification,Yes,41,0.5774647887323944
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,mistake_identification,No,21,0.29577464788732394
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,mistake_identification,To some extent,9,0.1267605633802817
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,mistake_location,Yes,32,0.4507042253521127
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,mistake_location,No,23,0.323943661971831
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,mistake_location,To some extent,16,0.22535211267605634
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,revealing_answer,No,62,0.8732394366197183
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,revealing_answer,Yes (incorrect),7,0.09859154929577464
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,revealing_answer,Yes (correct),2,0.028169014084507043
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,providing_guidance,To some extent,37,0.5211267605633803
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,providing_guidance,No,23,0.323943661971831
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,providing_guidance,Yes,11,0.15492957746478872
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,actionability,To some extent,33,0.4647887323943662
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,actionability,No,23,0.323943661971831
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,actionability,Yes,15,0.2112676056338028
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,coherence,Yes,70,0.9859154929577465
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,coherence,No,1,0.014084507042253521
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,tutor_tone,Neutral,39,0.5492957746478874
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,tutor_tone,Encouraging,32,0.4507042253521127
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,human_likeness,Yes,51,0.7183098591549296
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,human_likeness,To some extent,14,0.19718309859154928
+gpt-4.1-mini,dpo_03,extra_quantity_or_missing_quantity,71,human_likeness,No,6,0.08450704225352113
+gpt-4.1-mini,dpo_03,none_of_the_above,26,mistake_identification,Yes,19,0.7307692307692307
+gpt-4.1-mini,dpo_03,none_of_the_above,26,mistake_identification,No,5,0.19230769230769232
+gpt-4.1-mini,dpo_03,none_of_the_above,26,mistake_identification,To some extent,2,0.07692307692307693
+gpt-4.1-mini,dpo_03,none_of_the_above,26,mistake_location,Yes,15,0.5769230769230769
+gpt-4.1-mini,dpo_03,none_of_the_above,26,mistake_location,To some extent,6,0.23076923076923078
+gpt-4.1-mini,dpo_03,none_of_the_above,26,mistake_location,No,5,0.19230769230769232
+gpt-4.1-mini,dpo_03,none_of_the_above,26,revealing_answer,No,26,1.0
+gpt-4.1-mini,dpo_03,none_of_the_above,26,providing_guidance,Yes,10,0.38461538461538464
+gpt-4.1-mini,dpo_03,none_of_the_above,26,providing_guidance,To some extent,8,0.3076923076923077
+gpt-4.1-mini,dpo_03,none_of_the_above,26,providing_guidance,No,8,0.3076923076923077
+gpt-4.1-mini,dpo_03,none_of_the_above,26,actionability,Yes,10,0.38461538461538464
+gpt-4.1-mini,dpo_03,none_of_the_above,26,actionability,To some extent,8,0.3076923076923077
+gpt-4.1-mini,dpo_03,none_of_the_above,26,actionability,No,8,0.3076923076923077
+gpt-4.1-mini,dpo_03,none_of_the_above,26,coherence,Yes,22,0.8461538461538461
+gpt-4.1-mini,dpo_03,none_of_the_above,26,coherence,No,4,0.15384615384615385
+gpt-4.1-mini,dpo_03,none_of_the_above,26,tutor_tone,Encouraging,16,0.6153846153846154
+gpt-4.1-mini,dpo_03,none_of_the_above,26,tutor_tone,Neutral,10,0.38461538461538464
+gpt-4.1-mini,dpo_03,none_of_the_above,26,human_likeness,Yes,20,0.7692307692307693
+gpt-4.1-mini,dpo_03,none_of_the_above,26,human_likeness,No,4,0.15384615384615385
+gpt-4.1-mini,dpo_03,none_of_the_above,26,human_likeness,To some extent,2,0.07692307692307693
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,mistake_identification,Yes,29,0.6904761904761905
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,mistake_identification,No,9,0.21428571428571427
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,mistake_identification,To some extent,4,0.09523809523809523
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,mistake_location,Yes,21,0.5
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,mistake_location,To some extent,11,0.2619047619047619
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,mistake_location,No,10,0.23809523809523808
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,revealing_answer,No,35,0.8333333333333334
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,revealing_answer,Yes (incorrect),7,0.16666666666666666
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,providing_guidance,To some extent,18,0.42857142857142855
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,providing_guidance,No,14,0.3333333333333333
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,providing_guidance,Yes,10,0.23809523809523808
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,actionability,To some extent,15,0.35714285714285715
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,actionability,Yes,14,0.3333333333333333
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,actionability,No,13,0.30952380952380953
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,coherence,Yes,41,0.9761904761904762
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,coherence,No,1,0.023809523809523808
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,tutor_tone,Neutral,22,0.5238095238095238
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,tutor_tone,Encouraging,20,0.47619047619047616
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,human_likeness,Yes,31,0.7380952380952381
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,human_likeness,To some extent,7,0.16666666666666666
+gpt-4.1-mini,dpo_03,missing_wrong_factual_knowledge,42,human_likeness,No,4,0.09523809523809523
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,mistake_identification,Yes,24,0.631578947368421
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,mistake_identification,No,11,0.2894736842105263
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,mistake_identification,To some extent,3,0.07894736842105263
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,mistake_location,Yes,19,0.5
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,mistake_location,No,16,0.42105263157894735
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,mistake_location,To some extent,3,0.07894736842105263
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,revealing_answer,No,32,0.8421052631578947
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,revealing_answer,Yes (incorrect),4,0.10526315789473684
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,revealing_answer,Yes (correct),2,0.05263157894736842
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,providing_guidance,To some extent,16,0.42105263157894735
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,providing_guidance,No,11,0.2894736842105263
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,providing_guidance,Yes,11,0.2894736842105263
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,actionability,To some extent,16,0.42105263157894735
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,actionability,No,11,0.2894736842105263
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,actionability,Yes,11,0.2894736842105263
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,coherence,Yes,35,0.9210526315789473
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,coherence,No,3,0.07894736842105263
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,tutor_tone,Encouraging,22,0.5789473684210527
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,tutor_tone,Neutral,16,0.42105263157894735
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,human_likeness,Yes,29,0.7631578947368421
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,human_likeness,To some extent,8,0.21052631578947367
+gpt-4.1-mini,dpo_03,calculation_error_easily_solved_by_a_calculator,38,human_likeness,No,1,0.02631578947368421
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,mistake_identification,Yes,16,0.7619047619047619
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,mistake_identification,To some extent,3,0.14285714285714285
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,mistake_identification,No,2,0.09523809523809523
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,mistake_location,Yes,14,0.6666666666666666
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,mistake_location,To some extent,5,0.23809523809523808
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,mistake_location,No,2,0.09523809523809523
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,revealing_answer,No,18,0.8571428571428571
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,revealing_answer,Yes (incorrect),2,0.09523809523809523
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,revealing_answer,Yes (correct),1,0.047619047619047616
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,providing_guidance,To some extent,15,0.7142857142857143
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,providing_guidance,Yes,4,0.19047619047619047
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,providing_guidance,No,2,0.09523809523809523
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,actionability,To some extent,12,0.5714285714285714
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,actionability,Yes,5,0.23809523809523808
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,actionability,No,4,0.19047619047619047
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,coherence,Yes,20,0.9523809523809523
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,coherence,No,1,0.047619047619047616
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,tutor_tone,Neutral,13,0.6190476190476191
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,tutor_tone,Encouraging,8,0.38095238095238093
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,human_likeness,Yes,13,0.6190476190476191
+gpt-4.1-mini,dpo_03,reached_correct_solution_but_proceeded_further,21,human_likeness,To some extent,8,0.38095238095238093
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,mistake_identification,Yes,10,0.6666666666666666
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,mistake_identification,No,5,0.3333333333333333
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,mistake_location,Yes,8,0.5333333333333333
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,mistake_location,No,5,0.3333333333333333
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,mistake_location,To some extent,2,0.13333333333333333
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,revealing_answer,No,13,0.8666666666666667
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,revealing_answer,Yes (incorrect),2,0.13333333333333333
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,providing_guidance,To some extent,8,0.5333333333333333
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,providing_guidance,No,4,0.26666666666666666
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,providing_guidance,Yes,3,0.2
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,actionability,To some extent,8,0.5333333333333333
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,actionability,No,4,0.26666666666666666
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,actionability,Yes,3,0.2
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,coherence,Yes,14,0.9333333333333333
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,coherence,No,1,0.06666666666666667
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,tutor_tone,Encouraging,8,0.5333333333333333
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,tutor_tone,Neutral,7,0.4666666666666667
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,human_likeness,Yes,12,0.8
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,human_likeness,To some extent,2,0.13333333333333333
+gpt-4.1-mini,dpo_03,unit_conversion_error,15,human_likeness,No,1,0.06666666666666667
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,mistake_identification,Yes,74,0.8705882352941177
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,mistake_identification,No,6,0.07058823529411765
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,mistake_identification,To some extent,5,0.058823529411764705
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,mistake_location,Yes,59,0.6941176470588235
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,mistake_location,No,15,0.17647058823529413
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,mistake_location,To some extent,11,0.12941176470588237
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,revealing_answer,No,70,0.8235294117647058
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,revealing_answer,Yes (incorrect),9,0.10588235294117647
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,revealing_answer,Yes (correct),6,0.07058823529411765
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,providing_guidance,To some extent,38,0.4470588235294118
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,providing_guidance,No,25,0.29411764705882354
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,providing_guidance,Yes,22,0.25882352941176473
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,actionability,To some extent,36,0.4235294117647059
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,actionability,No,25,0.29411764705882354
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,actionability,Yes,24,0.2823529411764706
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,coherence,Yes,82,0.9647058823529412
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,coherence,No,3,0.03529411764705882
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,tutor_tone,Neutral,57,0.6705882352941176
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,tutor_tone,Encouraging,28,0.32941176470588235
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,human_likeness,Yes,53,0.6235294117647059
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,human_likeness,To some extent,25,0.29411764705882354
+gpt-4.1-mini,dpo_05,misunderstanding_of_a_question,85,human_likeness,No,7,0.08235294117647059
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,mistake_identification,Yes,53,0.7464788732394366
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,mistake_identification,No,10,0.14084507042253522
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,mistake_identification,To some extent,8,0.11267605633802817
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,mistake_location,Yes,41,0.5774647887323944
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,mistake_location,No,18,0.2535211267605634
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,mistake_location,To some extent,12,0.16901408450704225
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,revealing_answer,No,58,0.8169014084507042
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,revealing_answer,Yes (incorrect),8,0.11267605633802817
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,revealing_answer,Yes (correct),5,0.07042253521126761
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,providing_guidance,To some extent,27,0.38028169014084506
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,providing_guidance,No,27,0.38028169014084506
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,providing_guidance,Yes,17,0.23943661971830985
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,actionability,No,27,0.38028169014084506
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,actionability,To some extent,26,0.36619718309859156
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,actionability,Yes,18,0.2535211267605634
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,coherence,Yes,70,0.9859154929577465
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,coherence,No,1,0.014084507042253521
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,tutor_tone,Neutral,46,0.647887323943662
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,tutor_tone,Encouraging,25,0.352112676056338
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,human_likeness,Yes,43,0.6056338028169014
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,human_likeness,To some extent,24,0.3380281690140845
+gpt-4.1-mini,dpo_05,extra_quantity_or_missing_quantity,71,human_likeness,No,4,0.056338028169014086
+gpt-4.1-mini,dpo_05,none_of_the_above,26,mistake_identification,Yes,24,0.9230769230769231
+gpt-4.1-mini,dpo_05,none_of_the_above,26,mistake_identification,To some extent,1,0.038461538461538464
+gpt-4.1-mini,dpo_05,none_of_the_above,26,mistake_identification,No,1,0.038461538461538464
+gpt-4.1-mini,dpo_05,none_of_the_above,26,mistake_location,Yes,20,0.7692307692307693
+gpt-4.1-mini,dpo_05,none_of_the_above,26,mistake_location,To some extent,3,0.11538461538461539
+gpt-4.1-mini,dpo_05,none_of_the_above,26,mistake_location,No,3,0.11538461538461539
+gpt-4.1-mini,dpo_05,none_of_the_above,26,revealing_answer,No,21,0.8076923076923077
+gpt-4.1-mini,dpo_05,none_of_the_above,26,revealing_answer,Yes (incorrect),5,0.19230769230769232
+gpt-4.1-mini,dpo_05,none_of_the_above,26,providing_guidance,To some extent,12,0.46153846153846156
+gpt-4.1-mini,dpo_05,none_of_the_above,26,providing_guidance,No,8,0.3076923076923077
+gpt-4.1-mini,dpo_05,none_of_the_above,26,providing_guidance,Yes,6,0.23076923076923078
+gpt-4.1-mini,dpo_05,none_of_the_above,26,actionability,To some extent,11,0.4230769230769231
+gpt-4.1-mini,dpo_05,none_of_the_above,26,actionability,No,8,0.3076923076923077
+gpt-4.1-mini,dpo_05,none_of_the_above,26,actionability,Yes,7,0.2692307692307692
+gpt-4.1-mini,dpo_05,none_of_the_above,26,coherence,Yes,25,0.9615384615384616
+gpt-4.1-mini,dpo_05,none_of_the_above,26,coherence,No,1,0.038461538461538464
+gpt-4.1-mini,dpo_05,none_of_the_above,26,tutor_tone,Neutral,17,0.6538461538461539
+gpt-4.1-mini,dpo_05,none_of_the_above,26,tutor_tone,Encouraging,9,0.34615384615384615
+gpt-4.1-mini,dpo_05,none_of_the_above,26,human_likeness,Yes,18,0.6923076923076923
+gpt-4.1-mini,dpo_05,none_of_the_above,26,human_likeness,To some extent,7,0.2692307692307692
+gpt-4.1-mini,dpo_05,none_of_the_above,26,human_likeness,No,1,0.038461538461538464
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,mistake_identification,Yes,33,0.7857142857142857
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,mistake_identification,To some extent,5,0.11904761904761904
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,mistake_identification,No,4,0.09523809523809523
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,mistake_location,Yes,29,0.6904761904761905
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,mistake_location,No,8,0.19047619047619047
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,mistake_location,To some extent,5,0.11904761904761904
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,revealing_answer,No,33,0.7857142857142857
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,revealing_answer,Yes (incorrect),5,0.11904761904761904
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,revealing_answer,Yes (correct),4,0.09523809523809523
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,providing_guidance,No,14,0.3333333333333333
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,providing_guidance,To some extent,14,0.3333333333333333
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,providing_guidance,Yes,14,0.3333333333333333
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,actionability,No,15,0.35714285714285715
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,actionability,Yes,14,0.3333333333333333
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,actionability,To some extent,13,0.30952380952380953
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,coherence,Yes,39,0.9285714285714286
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,coherence,No,3,0.07142857142857142
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,tutor_tone,Neutral,25,0.5952380952380952
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,tutor_tone,Encouraging,17,0.40476190476190477
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,human_likeness,Yes,25,0.5952380952380952
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,human_likeness,To some extent,13,0.30952380952380953
+gpt-4.1-mini,dpo_05,missing_wrong_factual_knowledge,42,human_likeness,No,4,0.09523809523809523
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,mistake_identification,Yes,32,0.8421052631578947
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,mistake_identification,No,4,0.10526315789473684
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,mistake_identification,To some extent,2,0.05263157894736842
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,mistake_location,Yes,27,0.7105263157894737
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,mistake_location,No,8,0.21052631578947367
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,mistake_location,To some extent,3,0.07894736842105263
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,revealing_answer,No,27,0.7105263157894737
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,revealing_answer,Yes (incorrect),10,0.2631578947368421
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,revealing_answer,Yes (correct),1,0.02631578947368421
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,providing_guidance,To some extent,16,0.42105263157894735
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,providing_guidance,No,12,0.3157894736842105
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,providing_guidance,Yes,10,0.2631578947368421
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,actionability,To some extent,15,0.39473684210526316
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,actionability,No,12,0.3157894736842105
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,actionability,Yes,11,0.2894736842105263
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,coherence,Yes,36,0.9473684210526315
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,coherence,No,2,0.05263157894736842
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,tutor_tone,Neutral,25,0.6578947368421053
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,tutor_tone,Encouraging,13,0.34210526315789475
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,human_likeness,Yes,24,0.631578947368421
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,human_likeness,To some extent,12,0.3157894736842105
+gpt-4.1-mini,dpo_05,calculation_error_easily_solved_by_a_calculator,38,human_likeness,No,2,0.05263157894736842
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,mistake_identification,Yes,20,0.9523809523809523
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,mistake_identification,No,1,0.047619047619047616
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,mistake_location,Yes,18,0.8571428571428571
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,mistake_location,To some extent,2,0.09523809523809523
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,mistake_location,No,1,0.047619047619047616
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,revealing_answer,No,18,0.8571428571428571
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,revealing_answer,Yes (correct),2,0.09523809523809523
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,revealing_answer,Yes (incorrect),1,0.047619047619047616
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,providing_guidance,Yes,9,0.42857142857142855
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,providing_guidance,To some extent,8,0.38095238095238093
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,providing_guidance,No,4,0.19047619047619047
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,actionability,Yes,9,0.42857142857142855
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,actionability,To some extent,8,0.38095238095238093
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,actionability,No,4,0.19047619047619047
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,coherence,Yes,20,0.9523809523809523
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,coherence,No,1,0.047619047619047616
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,tutor_tone,Neutral,12,0.5714285714285714
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,tutor_tone,Encouraging,9,0.42857142857142855
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,human_likeness,Yes,17,0.8095238095238095
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,human_likeness,To some extent,3,0.14285714285714285
+gpt-4.1-mini,dpo_05,reached_correct_solution_but_proceeded_further,21,human_likeness,No,1,0.047619047619047616
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,mistake_identification,Yes,14,0.9333333333333333
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,mistake_identification,No,1,0.06666666666666667
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,mistake_location,Yes,11,0.7333333333333333
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,mistake_location,To some extent,2,0.13333333333333333
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,mistake_location,No,2,0.13333333333333333
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,revealing_answer,No,14,0.9333333333333333
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,revealing_answer,Yes (correct),1,0.06666666666666667
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,providing_guidance,To some extent,8,0.5333333333333333
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,providing_guidance,No,4,0.26666666666666666
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,providing_guidance,Yes,3,0.2
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,actionability,To some extent,8,0.5333333333333333
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,actionability,No,4,0.26666666666666666
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,actionability,Yes,3,0.2
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,coherence,Yes,15,1.0
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,tutor_tone,Neutral,12,0.8
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,tutor_tone,Encouraging,3,0.2
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,human_likeness,To some extent,6,0.4
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,human_likeness,Yes,6,0.4
+gpt-4.1-mini,dpo_05,unit_conversion_error,15,human_likeness,No,3,0.2
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,mistake_identification,No,36,0.4235294117647059
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,mistake_identification,Yes,32,0.3764705882352941
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,mistake_identification,To some extent,17,0.2
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,mistake_location,No,37,0.43529411764705883
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,mistake_location,Yes,32,0.3764705882352941
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,mistake_location,To some extent,16,0.18823529411764706
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,revealing_answer,No,83,0.9764705882352941
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,revealing_answer,Yes (incorrect),2,0.023529411764705882
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,providing_guidance,No,37,0.43529411764705883
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,providing_guidance,Yes,26,0.3058823529411765
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,providing_guidance,To some extent,22,0.25882352941176473
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,actionability,To some extent,35,0.4117647058823529
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,actionability,Yes,27,0.3176470588235294
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,actionability,No,23,0.27058823529411763
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,coherence,Yes,85,1.0
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,tutor_tone,Encouraging,65,0.7647058823529411
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,tutor_tone,Neutral,20,0.23529411764705882
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,human_likeness,Yes,76,0.8941176470588236
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,human_likeness,No,5,0.058823529411764705
+gpt-4.1-mini,sft,misunderstanding_of_a_question,85,human_likeness,To some extent,4,0.047058823529411764
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,mistake_identification,No,29,0.4084507042253521
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,mistake_identification,Yes,25,0.352112676056338
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,mistake_identification,To some extent,17,0.23943661971830985
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,mistake_location,No,31,0.43661971830985913
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,mistake_location,Yes,22,0.30985915492957744
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,mistake_location,To some extent,18,0.2535211267605634
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,revealing_answer,No,66,0.9295774647887324
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,revealing_answer,Yes (incorrect),5,0.07042253521126761
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,providing_guidance,No,33,0.4647887323943662
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,providing_guidance,To some extent,23,0.323943661971831
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,providing_guidance,Yes,15,0.2112676056338028
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,actionability,To some extent,28,0.39436619718309857
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,actionability,No,25,0.352112676056338
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,actionability,Yes,18,0.2535211267605634
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,coherence,Yes,69,0.971830985915493
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,coherence,No,2,0.028169014084507043
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,tutor_tone,Encouraging,47,0.6619718309859155
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,tutor_tone,Neutral,24,0.3380281690140845
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,human_likeness,Yes,57,0.8028169014084507
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,human_likeness,No,9,0.1267605633802817
+gpt-4.1-mini,sft,extra_quantity_or_missing_quantity,71,human_likeness,To some extent,5,0.07042253521126761
+gpt-4.1-mini,sft,none_of_the_above,26,mistake_identification,No,14,0.5384615384615384
+gpt-4.1-mini,sft,none_of_the_above,26,mistake_identification,Yes,9,0.34615384615384615
+gpt-4.1-mini,sft,none_of_the_above,26,mistake_identification,To some extent,3,0.11538461538461539
+gpt-4.1-mini,sft,none_of_the_above,26,mistake_location,No,15,0.5769230769230769
+gpt-4.1-mini,sft,none_of_the_above,26,mistake_location,Yes,9,0.34615384615384615
+gpt-4.1-mini,sft,none_of_the_above,26,mistake_location,To some extent,2,0.07692307692307693
+gpt-4.1-mini,sft,none_of_the_above,26,revealing_answer,No,25,0.9615384615384616
+gpt-4.1-mini,sft,none_of_the_above,26,revealing_answer,Yes (incorrect),1,0.038461538461538464
+gpt-4.1-mini,sft,none_of_the_above,26,providing_guidance,No,14,0.5384615384615384
+gpt-4.1-mini,sft,none_of_the_above,26,providing_guidance,Yes,7,0.2692307692307692
+gpt-4.1-mini,sft,none_of_the_above,26,providing_guidance,To some extent,5,0.19230769230769232
+gpt-4.1-mini,sft,none_of_the_above,26,actionability,No,10,0.38461538461538464
+gpt-4.1-mini,sft,none_of_the_above,26,actionability,To some extent,9,0.34615384615384615
+gpt-4.1-mini,sft,none_of_the_above,26,actionability,Yes,7,0.2692307692307692
+gpt-4.1-mini,sft,none_of_the_above,26,coherence,Yes,26,1.0
+gpt-4.1-mini,sft,none_of_the_above,26,tutor_tone,Encouraging,17,0.6538461538461539
+gpt-4.1-mini,sft,none_of_the_above,26,tutor_tone,Neutral,9,0.34615384615384615
+gpt-4.1-mini,sft,none_of_the_above,26,human_likeness,Yes,22,0.8461538461538461
+gpt-4.1-mini,sft,none_of_the_above,26,human_likeness,No,4,0.15384615384615385
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,mistake_identification,Yes,25,0.5952380952380952
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,mistake_identification,No,11,0.2619047619047619
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,mistake_identification,To some extent,6,0.14285714285714285
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,mistake_location,Yes,23,0.5476190476190477
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,mistake_location,No,11,0.2619047619047619
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,mistake_location,To some extent,8,0.19047619047619047
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,revealing_answer,No,36,0.8571428571428571
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,revealing_answer,Yes (incorrect),4,0.09523809523809523
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,revealing_answer,Yes (correct),2,0.047619047619047616
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,providing_guidance,Yes,17,0.40476190476190477
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,providing_guidance,No,16,0.38095238095238093
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,providing_guidance,To some extent,9,0.21428571428571427
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,actionability,Yes,17,0.40476190476190477
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,actionability,To some extent,15,0.35714285714285715
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,actionability,No,10,0.23809523809523808
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,coherence,Yes,41,0.9761904761904762
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,coherence,No,1,0.023809523809523808
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,tutor_tone,Encouraging,31,0.7380952380952381
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,tutor_tone,Neutral,11,0.2619047619047619
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,human_likeness,Yes,34,0.8095238095238095
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,human_likeness,No,4,0.09523809523809523
+gpt-4.1-mini,sft,missing_wrong_factual_knowledge,42,human_likeness,To some extent,4,0.09523809523809523
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,mistake_identification,No,21,0.5526315789473685
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,mistake_identification,Yes,15,0.39473684210526316
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,mistake_identification,To some extent,2,0.05263157894736842
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,mistake_location,No,22,0.5789473684210527
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,mistake_location,Yes,14,0.3684210526315789
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,mistake_location,To some extent,2,0.05263157894736842
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,revealing_answer,No,36,0.9473684210526315
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,revealing_answer,Yes (incorrect),2,0.05263157894736842
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,providing_guidance,No,23,0.6052631578947368
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,providing_guidance,Yes,9,0.23684210526315788
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,providing_guidance,To some extent,6,0.15789473684210525
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,actionability,To some extent,17,0.4473684210526316
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,actionability,No,12,0.3157894736842105
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,actionability,Yes,9,0.23684210526315788
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,coherence,Yes,38,1.0
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,tutor_tone,Encouraging,29,0.7631578947368421
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,tutor_tone,Neutral,9,0.23684210526315788
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,human_likeness,Yes,35,0.9210526315789473
+gpt-4.1-mini,sft,calculation_error_easily_solved_by_a_calculator,38,human_likeness,No,3,0.07894736842105263
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,mistake_identification,Yes,10,0.47619047619047616
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,mistake_identification,No,7,0.3333333333333333
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,mistake_identification,To some extent,4,0.19047619047619047
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,mistake_location,Yes,9,0.42857142857142855
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,mistake_location,No,7,0.3333333333333333
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,mistake_location,To some extent,5,0.23809523809523808
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,revealing_answer,No,20,0.9523809523809523
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,revealing_answer,Yes (correct),1,0.047619047619047616
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,providing_guidance,No,8,0.38095238095238093
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,providing_guidance,To some extent,8,0.38095238095238093
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,providing_guidance,Yes,5,0.23809523809523808
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,actionability,No,8,0.38095238095238093
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,actionability,To some extent,8,0.38095238095238093
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,actionability,Yes,5,0.23809523809523808
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,coherence,Yes,21,1.0
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,tutor_tone,Encouraging,12,0.5714285714285714
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,tutor_tone,Neutral,9,0.42857142857142855
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,human_likeness,Yes,17,0.8095238095238095
+gpt-4.1-mini,sft,reached_correct_solution_but_proceeded_further,21,human_likeness,To some extent,4,0.19047619047619047
+gpt-4.1-mini,sft,unit_conversion_error,15,mistake_identification,Yes,8,0.5333333333333333
+gpt-4.1-mini,sft,unit_conversion_error,15,mistake_identification,No,6,0.4
+gpt-4.1-mini,sft,unit_conversion_error,15,mistake_identification,To some extent,1,0.06666666666666667
+gpt-4.1-mini,sft,unit_conversion_error,15,mistake_location,Yes,7,0.4666666666666667
+gpt-4.1-mini,sft,unit_conversion_error,15,mistake_location,No,6,0.4
+gpt-4.1-mini,sft,unit_conversion_error,15,mistake_location,To some extent,2,0.13333333333333333
+gpt-4.1-mini,sft,unit_conversion_error,15,revealing_answer,No,14,0.9333333333333333
+gpt-4.1-mini,sft,unit_conversion_error,15,revealing_answer,Yes (incorrect),1,0.06666666666666667
+gpt-4.1-mini,sft,unit_conversion_error,15,providing_guidance,No,7,0.4666666666666667
+gpt-4.1-mini,sft,unit_conversion_error,15,providing_guidance,Yes,5,0.3333333333333333
+gpt-4.1-mini,sft,unit_conversion_error,15,providing_guidance,To some extent,3,0.2
+gpt-4.1-mini,sft,unit_conversion_error,15,actionability,No,7,0.4666666666666667
+gpt-4.1-mini,sft,unit_conversion_error,15,actionability,Yes,6,0.4
+gpt-4.1-mini,sft,unit_conversion_error,15,actionability,To some extent,2,0.13333333333333333
+gpt-4.1-mini,sft,unit_conversion_error,15,coherence,Yes,11,0.7333333333333333
+gpt-4.1-mini,sft,unit_conversion_error,15,coherence,No,4,0.26666666666666666
+gpt-4.1-mini,sft,unit_conversion_error,15,tutor_tone,Neutral,8,0.5333333333333333
+gpt-4.1-mini,sft,unit_conversion_error,15,tutor_tone,Encouraging,7,0.4666666666666667
+gpt-4.1-mini,sft,unit_conversion_error,15,human_likeness,Yes,11,0.7333333333333333
+gpt-4.1-mini,sft,unit_conversion_error,15,human_likeness,No,4,0.26666666666666666
