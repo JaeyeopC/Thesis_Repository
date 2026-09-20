@@ -1,0 +1,25 @@
+{
+  "threshold_to_accept": 0.9,
+  "n_matched_teacher_turns": 2004,
+  "matched_teacher_turns_result_status": {
+    "accepted": 1984,
+    "below_threshold": 20
+  },
+  "n_accepted_matched_teacher_turns": 1984,
+  "n_rejected_matched_teacher_turns": 20,
+  "accepted_matched_teacher_turns_distribution": {
+    "0.0~0.2": 0,
+    "0.2~0.4": 0,
+    "0.4~0.6": 0,
+    "0.6~0.8": 0,
+    "0.8~0.9": 0,
+    "0.9~0.99": 24,
+    "0.99~1.0": 1960
+  },
+  "matched_teacher_turns__label_distribution": {
+    "generic": 822,
+    "probing": 563,
+    "focus": 536,
+    "telling": 63
+  }
+}

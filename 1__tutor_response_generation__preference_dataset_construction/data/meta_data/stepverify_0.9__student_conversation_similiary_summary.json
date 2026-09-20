@@ -1,0 +1,15 @@
+{
+  "n_student_conversation_similiary_result": 1002,
+  "student_conversation_similarity_result_status": {
+    "matched": 1002
+  },
+  "student_conversation_similarity_score_distribution": {
+    "0.0~0.2": 1,
+    "0.2~0.4": 1,
+    "0.4~0.6": 0,
+    "0.6~0.8": 2,
+    "0.8~0.9": 3,
+    "0.9~0.99": 27,
+    "0.99~1.0": 968
+  }
+}
