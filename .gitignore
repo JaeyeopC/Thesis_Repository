@@ -6,7 +6,3 @@ __pycache__/
 0__final_classification/further_pretraining_model/
 0__final_classification/poetry.lock
 0__final_classification/pyproject.toml
-0__final_classification/data/
-0__final_classification/original_data/
-0__final_classification/pmi/
-0__final_classification/sft_data/
