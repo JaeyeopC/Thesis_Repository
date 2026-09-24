@@ -7,6 +7,7 @@ __pycache__/
 0__final_classification/further_pretraining_model/
 0__final_classification/poetry.lock
 0__final_classification/pyproject.toml
+0__final_classification/pmi/
 
 1__tutor_response_generation__preference_dataset_construction/dam_tutor_only_best_model/
 1__tutor_response_generation__preference_dataset_construction/poetry.lock
