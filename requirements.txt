@@ -1,0 +1,45 @@
+# Python packages used in this repository.
+# Experiments were run on Google Colab (Python 3.13, GPU runtime); the pinned versions below are
+# the ones that were installed when the SFT / DPO notebooks were executed.
+
+# --- SFT / DPO (2__SFT_DPO__) -----------------------------------------------------------------
+# Recent versions are required: TRL 0.24.0 + Transformers 5.5.0 miscompute the prompt length
+# (prompt-only apply_chat_template() returns a BatchEncoding), and the notebooks use the
+# TRL >= 0.29 adapter API (adapter_name="default"; DPOTrainer copies it as the reference adapter).
+torch>=2.11              # Colab: 2.11.0+cu128 (pre-installed)
+transformers==5.16.1
+trl==1.12.0
+peft==0.20.0
+torchao==0.18.0          # required by peft (>0.16.0)
+datasets==5.0.1
+accelerate==1.14.0
+bitsandbytes==0.50.2
+safetensors==0.8.0
+huggingface-hub>=1.28,<2.0
+
+# --- Candidate generation / LLM-as-a-Judge (1__..., 2__...) ---------------------------------------
+langchain-core==1.6.0
+langchain-openai==1.6.0
+langchain-google-genai==4.3.5
+langchain-ollama==1.1.0
+ollama==0.6.2            # Python client; the Ollama server itself is installed in the notebook
+aiolimiter
+tenacity
+httpx
+pydantic>=2.13
+python-dotenv
+
+# --- Classifier, data processing and analysis (0__..., 1__...) --------------------------------------
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+pyyaml
+beautifulsoup4
+emoji
+tqdm
+psutil
+
+# --- Local notebook execution (analysis / evaluation notebooks) -------------------------------------
+jupyter
