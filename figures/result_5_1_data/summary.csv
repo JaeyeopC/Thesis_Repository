@@ -1,0 +1,19 @@
+encoder,representation,objective,accuracy,macro_f1,macro_auc,mcc,source_file,macro_f1_no_generic,macro_auc_no_generic
+RoBERTa-base,Preceding-2,Weighted CE,0.5377,0.3423,0.7607,0.2187977677134108,Final_01_01__roBERTa__Weighted_CE__all_turns__refactored.ipynb,0.3874686560331284,0.7432
+RoBERTa-base,Preceding-1,Weighted CE,0.5678,0.4476,0.7513,0.2762754221604988,Final_01_02__roBERTa__Weighted_CE__preceding_1__refactored.ipynb,0.4745313662511115,0.7191666666666666
+RoBERTa-base,Tutor-turn only,Weighted CE,0.7154,0.6121,0.834,0.5795826290128037,Final_01_03__roBERTa__Weighted_CE__tutor_turn_only__refactored.ipynb,0.5108702042652611,0.7980666666666667
+RoBERTa-base,Preceding-2,AUC max.,0.603,0.3957,0.7468,0.3235072495520484,Final_02_01__roBERTa__DAM__all_turns__refactored.ipynb,0.42883785148321024,0.7688
+RoBERTa-base,Preceding-1,AUC max.,0.608,0.4788,0.7555,0.3399796921345273,Final_02_02__roBERTa__DAM__preceding_1__refactored.ipynb,0.5284138959759498,0.7616999999999999
+RoBERTa-base,Tutor-turn only,AUC max.,0.7355,0.6417,0.8645,0.6156498215283769,Final_02_03__roBERTa__DAM__tutor_turn_only__refactored.ipynb,0.5464585964769316,0.8364333333333334
+RoBERTa-base,Preceding-2,Focal loss,0.5477,0.3658,0.7511,0.24016255810580497,Final_03_01__roBERTa__Focal__all_turns__refactored.ipynb,0.43320299771912674,0.7366333333333334
+RoBERTa-base,Preceding-1,Focal loss,0.5729,0.379,0.7429,0.26229983506932447,Final_03_02__roBERTa__Focal__preceding_1__refactored.ipynb,0.4052971110309733,0.7259333333333333
+RoBERTa-base,Tutor-turn only,Focal loss,0.7103,0.6141,0.8497,0.5783137631495255,Final_03_03__roBERTa__Focal__tutor_turn_only__refactored.ipynb,0.5161796728617005,0.8186333333333334
+DAPT,Preceding-2,Weighted CE,0.5327,0.3698,0.7165,0.1935678547074939,Final_04_01__pretrained_roBERTa__Weighted_CE__all_turns__refactored.ipynb,0.4334671288694277,0.7035666666666667
+DAPT,Preceding-1,Weighted CE,0.5176,0.3024,0.6987,0.17965105515343766,Final_04_02__pretrained_roBERTa__Weighted_CE__preceding_1__refactored.ipynb,0.37539740767913915,0.7115333333333332
+DAPT,Tutor-turn only,Weighted CE,0.7254,0.6231,0.7992,0.5933256018472781,Final_04_03__pretrained_roBERTa__Weighted_CE__tutor_turn_only__refactored.ipynb,0.5244078637348609,0.7477666666666667
+DAPT,Preceding-2,AUC max.,0.598,0.4069,0.754,0.3039924898833346,Final_05_01__pretrained_roBERTa__DAM__all_turns__refactored.ipynb,0.5033762280337623,0.7651333333333333
+DAPT,Preceding-1,AUC max.,0.5729,0.4016,0.7118,0.27143006386311497,Final_05_02__pretrained_roBERTa__DAM__preceding_1__refactored.ipynb,0.4542890326862452,0.7300333333333334
+DAPT,Tutor-turn only,AUC max.,0.7179,0.6079,0.8611,0.5927117390274073,Final_05_03__pretrained_roBERTa__DAM__tutor_turn_only__refactored.ipynb,0.5033489310945959,0.8319
+DAPT,Preceding-2,Focal loss,0.5528,0.3693,0.7249,0.24275951495598214,Final_06_01__pretrained_roBERTa__Focal__all_turns__refactored.ipynb,0.3934764193788718,0.7056333333333334
+DAPT,Preceding-1,Focal loss,0.5578,0.4057,0.7315,0.23125626127960647,Final_06_02__pretrained_roBERTa__Focal__preceding_1__refactored.ipynb,0.4356960175374498,0.7233999999999999
+DAPT,Tutor-turn only,Focal loss,0.728,0.6249,0.8615,0.5970535829251354,Final_06_03__pretrained_roBERTa__Focal__tutor_turn_only__refactored.ipynb,0.5279234424624496,0.8326333333333333

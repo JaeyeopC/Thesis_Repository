@@ -1,0 +1,73 @@
+move,precision,recall,support,encoder,representation,objective,auc,correct,predicted,f1
+focus,0.58,0.55,93,RoBERTa-base,Preceding-2,Weighted CE,0.6844,51,88,0.56353591160221
+generic,0.21,0.2,15,RoBERTa-base,Preceding-2,Weighted CE,0.813,3,14,0.20689655172413793
+probing,0.56,0.65,82,RoBERTa-base,Preceding-2,Weighted CE,0.7411,53,95,0.5988700564971752
+telling,0.0,0.0,9,RoBERTa-base,Preceding-2,Weighted CE,0.8041,0,0,0.0
+focus,0.59,0.65,93,RoBERTa-base,Preceding-1,Weighted CE,0.5968,60,102,0.6153846153846154
+generic,0.42,0.33,15,RoBERTa-base,Preceding-1,Weighted CE,0.8478,5,12,0.37037037037037035
+probing,0.61,0.56,82,RoBERTa-base,Preceding-1,Weighted CE,0.7391,46,75,0.5859872611464968
+telling,0.22,0.22,9,RoBERTa-base,Preceding-1,Weighted CE,0.8216,2,9,0.2222222222222222
+focus,0.56,0.59,107,RoBERTa-base,Tutor-turn only,Weighted CE,0.7779,63,112,0.5753424657534246
+generic,0.95,0.89,164,RoBERTa-base,Tutor-turn only,Weighted CE,0.9418,146,154,0.9182389937106918
+probing,0.59,0.63,113,RoBERTa-base,Tutor-turn only,Weighted CE,0.8486,71,120,0.6094420600858369
+telling,0.4,0.31,13,RoBERTa-base,Tutor-turn only,Weighted CE,0.7677,4,10,0.34782608695652173
+focus,0.67,0.68,93,RoBERTa-base,Preceding-2,AUC max.,0.7363,63,94,0.6737967914438503
+generic,0.33,0.27,15,RoBERTa-base,Preceding-2,AUC max.,0.6808,4,12,0.2962962962962963
+probing,0.58,0.65,82,RoBERTa-base,Preceding-2,AUC max.,0.7391,53,91,0.6127167630057804
+telling,0.0,0.0,9,RoBERTa-base,Preceding-2,AUC max.,0.831,0,0,0.0
+focus,0.69,0.59,93,RoBERTa-base,Preceding-1,AUC max.,0.7261,55,80,0.6358381502890174
+generic,0.44,0.27,15,RoBERTa-base,Preceding-1,AUC max.,0.737,4,9,0.3333333333333333
+probing,0.57,0.73,82,RoBERTa-base,Preceding-1,AUC max.,0.728,60,105,0.6417112299465241
+telling,0.5,0.22,9,RoBERTa-base,Preceding-1,AUC max.,0.831,2,4,0.3076923076923077
+focus,0.56,0.71,107,RoBERTa-base,Tutor-turn only,AUC max.,0.8137,76,136,0.6255144032921811
+generic,0.95,0.9,164,RoBERTa-base,Tutor-turn only,AUC max.,0.9487,148,156,0.925
+probing,0.7,0.55,113,RoBERTa-base,Tutor-turn only,AUC max.,0.8688,62,89,0.6138613861386139
+telling,0.35,0.46,13,RoBERTa-base,Tutor-turn only,AUC max.,0.8268,6,17,0.4
+focus,0.57,0.65,93,RoBERTa-base,Preceding-2,Focal loss,0.6212,60,105,0.6060606060606061
+generic,0.22,0.13,15,RoBERTa-base,Preceding-2,Focal loss,0.7946,2,9,0.16666666666666666
+probing,0.63,0.56,82,RoBERTa-base,Preceding-2,Focal loss,0.7296,46,73,0.5935483870967742
+telling,0.09,0.11,9,RoBERTa-base,Preceding-2,Focal loss,0.8591,1,11,0.1
+focus,0.61,0.62,93,RoBERTa-base,Preceding-1,Focal loss,0.6777,58,95,0.6170212765957447
+generic,0.6,0.2,15,RoBERTa-base,Preceding-1,Focal loss,0.7938,3,5,0.3
+probing,0.56,0.65,82,RoBERTa-base,Preceding-1,Focal loss,0.7136,53,95,0.5988700564971752
+telling,0.0,0.0,9,RoBERTa-base,Preceding-1,Focal loss,0.7865,0,0,0.0
+focus,0.54,0.71,107,RoBERTa-base,Tutor-turn only,Focal loss,0.7861,76,141,0.6129032258064516
+generic,0.92,0.9,164,RoBERTa-base,Tutor-turn only,Focal loss,0.943,148,161,0.9107692307692308
+probing,0.65,0.48,113,RoBERTa-base,Tutor-turn only,Focal loss,0.8474,54,83,0.5510204081632653
+telling,0.38,0.38,13,RoBERTa-base,Tutor-turn only,Focal loss,0.8224,5,13,0.38461538461538464
+focus,0.57,0.59,93,DAPT,Preceding-2,Weighted CE,0.6295,55,96,0.582010582010582
+generic,0.29,0.13,15,DAPT,Preceding-2,Weighted CE,0.7554,2,7,0.18181818181818182
+probing,0.52,0.59,82,DAPT,Preceding-2,Weighted CE,0.6923,48,92,0.5517241379310345
+telling,0.33,0.11,9,DAPT,Preceding-2,Weighted CE,0.7889,1,3,0.16666666666666666
+focus,0.59,0.52,93,DAPT,Preceding-1,Weighted CE,0.6332,48,81,0.5517241379310345
+generic,0.11,0.07,15,DAPT,Preceding-1,Weighted CE,0.6601,1,9,0.08333333333333333
+probing,0.51,0.66,82,DAPT,Preceding-1,Weighted CE,0.702,54,106,0.574468085106383
+telling,0.0,0.0,9,DAPT,Preceding-1,Weighted CE,0.7994,0,0,0.0
+focus,0.55,0.63,107,DAPT,Tutor-turn only,Weighted CE,0.6798,67,122,0.5851528384279476
+generic,0.93,0.9,164,DAPT,Tutor-turn only,Weighted CE,0.9535,148,159,0.9164086687306502
+probing,0.64,0.61,113,DAPT,Tutor-turn only,Weighted CE,0.7293,69,108,0.6244343891402715
+telling,0.44,0.31,13,DAPT,Tutor-turn only,Weighted CE,0.8342,4,9,0.36363636363636365
+focus,0.59,0.81,93,DAPT,Preceding-2,AUC max.,0.7432,75,127,0.6818181818181818
+generic,0.5,0.07,15,DAPT,Preceding-2,AUC max.,0.7207,1,2,0.11764705882352941
+probing,0.64,0.5,82,DAPT,Preceding-2,AUC max.,0.7504,41,64,0.5616438356164384
+telling,0.33,0.22,9,DAPT,Preceding-2,AUC max.,0.8018,2,6,0.26666666666666666
+focus,0.59,0.66,93,DAPT,Preceding-1,AUC max.,0.6941,61,103,0.6224489795918368
+generic,0.3,0.2,15,DAPT,Preceding-1,AUC max.,0.6572,3,10,0.24
+probing,0.6,0.6,82,DAPT,Preceding-1,AUC max.,0.7358,49,82,0.5975609756097561
+telling,0.2,0.11,9,DAPT,Preceding-1,AUC max.,0.7602,1,5,0.14285714285714285
+focus,0.61,0.37,107,DAPT,Tutor-turn only,AUC max.,0.8189,40,66,0.4624277456647399
+generic,0.94,0.9,164,DAPT,Tutor-turn only,AUC max.,0.9489,148,157,0.9221183800623053
+probing,0.56,0.82,113,DAPT,Tutor-turn only,AUC max.,0.8578,93,166,0.6666666666666666
+telling,0.5,0.31,13,DAPT,Tutor-turn only,AUC max.,0.819,4,8,0.38095238095238093
+focus,0.63,0.53,93,DAPT,Preceding-2,Focal loss,0.6971,49,78,0.5730994152046783
+generic,0.6,0.2,15,DAPT,Preceding-2,Focal loss,0.7826,3,5,0.3
+probing,0.53,0.71,82,DAPT,Preceding-2,Focal loss,0.7216,58,109,0.6073298429319371
+telling,0.0,0.0,9,DAPT,Preceding-2,Focal loss,0.6982,0,0,0.0
+focus,0.57,0.68,93,DAPT,Preceding-1,Focal loss,0.6219,63,111,0.6176470588235294
+generic,0.75,0.2,15,DAPT,Preceding-1,Focal loss,0.7558,3,4,0.3157894736842105
+probing,0.56,0.54,82,DAPT,Preceding-1,Focal loss,0.7167,44,79,0.546583850931677
+telling,0.2,0.11,9,DAPT,Preceding-1,Focal loss,0.8316,1,5,0.14285714285714285
+focus,0.56,0.57,107,DAPT,Tutor-turn only,Focal loss,0.7792,61,109,0.5648148148148148
+generic,0.94,0.9,164,DAPT,Tutor-turn only,Focal loss,0.948,148,157,0.9221183800623053
+probing,0.63,0.68,113,DAPT,Tutor-turn only,Focal loss,0.857,77,122,0.6553191489361702
+telling,0.44,0.31,13,DAPT,Tutor-turn only,Focal loss,0.8617,4,9,0.36363636363636365

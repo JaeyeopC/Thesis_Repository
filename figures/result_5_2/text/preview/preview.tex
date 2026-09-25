@@ -1,0 +1,94 @@
+% Standalone preview of the Section 5.2 draft, the Chapter 6 paragraphs, and Appendix A.
+% Compile from this folder: pdflatex preview.tex (twice). The figures are copied into ./figures/ by
+% Section 12 of result_5_2.ipynb (from result_5_2/); the tex files are read from the parent folder.
+% Same class options as main.tex; the relevant parts of settings.tex; pdfLaTeX + mathpazo (Palatino).
+\documentclass[headsepline,footsepline,footinclude=false,oneside,fontsize=11pt,paper=a4,listof=totoc,bibliography=totoc,DIV=12]{scrbook}
+\PassOptionsToPackage{table,svgnames,dvipsnames}{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[sc]{mathpazo}
+\usepackage[english]{babel}
+\usepackage[autostyle]{csquotes}
+\usepackage{scrlayer-scrpage}
+\automark[section]{section}
+\ihead{}\chead{\headmark}\ohead{}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[final]{microtype}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{threeparttable}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\setkomafont{disposition}{\normalfont\bfseries}
+\linespread{1.05}
+\RedeclareSectionCommand[
+  runin=false,
+  afterindent=false,
+  beforeskip=1.0\baselineskip plus .2\baselineskip minus .2\baselineskip,
+  afterskip=.5\baselineskip plus .1\baselineskip minus .1\baselineskip
+]{paragraph}
+\graphicspath{{figures/}}
+\makeatletter
+% Cross-references into other chapters, resolved to the numbers of main.pdf (2026-09-21, 18:25).
+\newlabel{subsec:error_conditioned_preference_scoring}{{4.4.2}{29}{}{subsection.4.4.2}{}}
+\newlabel{subsec:preference_pair_construction}{{4.4.3}{34}{}{subsection.4.4.3}{}}
+\newlabel{tab:first_turn_error_move_cooccurrence}{{4.5}{31}{}{table.4.5}{}}
+\newlabel{tab:first_turn_error_move_ppmi}{{4.6}{33}{}{table.4.6}{}}
+\newlabel{subsec:preprocessing_data_and_input_rep}{{4.3.1}{15}{}{subsection.4.3.1}{}}
+\newlabel{chapter:Discussions}{{6}{58}{}{chapter.6}{}}
+\newlabel{subsec:candidate_tutor_response_generation}{{4.4.1}{28}{}{subsection.4.4.1}{}}
+\newlabel{subsec:selected_classifier}{{5.1.2}{53}{}{subsection.5.1.2}{}}
+\newlabel{sec:pedagogical_alignment_and_evaluation_of_LLM_tutors}{{4.5}{35}{}{section.4.5}{}}
+\newlabel{tab:dpo_split}{{4.8}{43}{}{table.4.8}{}}
+\makeatother
+
+\begin{document}
+\selectlanguage{english}
+
+\pagenumbering{arabic}
+\setcounter{page}{55}
+\setcounter{chapter}{5}
+\setcounter{section}{1}
+\setcounter{figure}{6}
+\setcounter{table}{1}
+
+\noindent\textbf{Preview of the Section 5.2 draft} \hfill \small compiled \today\ from \texttt{result\_5\_2/text/}\normalsize
+
+\medskip
+\noindent\small Standalone compile with the thesis class and fonts. Cross-references to Chapters 4--6 are resolved to the numbers of the current \texttt{main.pdf}; figure and table numbers continue from the current Chapter 5 (Figure 5.6, Table 5.1), so they will shift once the text is merged. Figures are the PDFs in \texttt{result\_5\_2/}. The Chapter 6 paragraphs and the two appendix sections (one context per error type, Figure A.1; the posterior comparison over all pairs, Figure A.2 and Table A.1) follow after the section.\normalsize
+
+\bigskip
+\input{../section_5_2_results.tex}
+
+\clearpage
+\setcounter{chapter}{6}
+\setcounter{section}{1}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\section{Limitations and Future Work --- draft paragraphs}
+\noindent\small Negative and qualifying findings about the scoring method (4.4.2) and the preference pairs (4.4.3), kept out of Section 5.2. Paragraph headings are suggestions.\normalsize
+
+\input{../section_6_2_limitations_draft.tex}
+
+\clearpage
+\setcounter{chapter}{1}
+\setcounter{section}{0}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\renewcommand{\thechapter}{A}
+\renewcommand{\thefigure}{A.\arabic{figure}}
+\renewcommand{\thetable}{A.\arabic{table}}
+\chead{Appendix A --- Dataset}
+\input{../appendix_A_contexts.tex}
+
+\clearpage
+\input{../appendix_B_posterior_comparison.tex}
+
+\end{document}

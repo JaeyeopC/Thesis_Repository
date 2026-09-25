@@ -1,0 +1,14 @@
+% =========================================================
+% Appendix: one context per error type in a single figure, same layout as Figure fig:context_ranking (Section 5.2.2).
+% Figure: result_5_2/fig_A_contexts.pdf (built by result_5_2.ipynb, Section 7b; selection rule: widest first pair).
+% Add to pages/appendix.tex (or a new chapter in the appendix) and copy the PDF into figures/.
+% =========================================================
+\section{One Context per Student Error Type}\label{app:contexts}
+Figure~\ref{fig:app_contexts} repeats Figure~\ref{fig:context_ranking} for every student error type. For each error type, the context shown is the one whose first preference pair has the widest normalized score margin \(\Delta_{e,1}/\max_{m}\operatorname{PPMI}(m,e)\) of that error type, that is, the context in which the error-conditioned scoring separates the two sides most clearly. The blocks are arranged by the move with the largest utility of the error type: the first row holds the three \textit{Focus}-associated error types, the second row the three \textit{Telling}-associated error types, and the third row the error type whose only positive utility is that of \textit{Generic}. In every block, the upper panel shows the score \(s(r,e)\) of all candidates of the context ranked from the largest to the smallest, with the chosen half in blue, the rejected half in orange, and the omitted middle candidate in grey when the number of candidates is odd; the arcs mark the first three pairs, which join rank \(j\) with rank \(n-j+1\). The lower panel shows the classifier posterior \(p_{\theta}(m\mid r)\) of the same candidates, stacked per move. The utility vector in each title lists \(u(m,e)\) in the order \textit{Focus}, \textit{Generic}, \textit{Probing}, \textit{Telling}. Context 150 (\textit{missing or incorrect factual knowledge}) is the right-hand context of Figure~\ref{fig:context_ranking}.
+
+    \begin{figure}[p]
+        \centering
+        \includegraphics[width=\textwidth]{figures/fig_A_contexts.pdf}
+        \caption{One context per student error type, drawn as in Figure~\ref{fig:context_ranking}: the score of all candidates of the context ranked by \(s(r,e)\) (upper panel of each block; blue: chosen half, orange: rejected half, arcs: the first three pairs) and the classifier posterior of the same candidates (lower panel). Rows group the error types by the move with the largest utility. For each error type, the context whose first pair has the widest normalized margin is shown; the block title gives the context, the number of candidates \(n\), and the utility vector \(u = (u_{\text{Focus}}, u_{\text{Generic}}, u_{\text{Probing}}, u_{\text{Telling}})\).}
+        \label{fig:app_contexts}
+    \end{figure}

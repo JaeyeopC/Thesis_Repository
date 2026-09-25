@@ -1,0 +1,8 @@
+error_type,n_contexts,n_pairs,positive_utilities,utility,retained_sign_only_pct,retained_top_move_only_pct
+Numerical calculation error,87,3032,1,"(0.90, 0, 0, 0)",100.0,100.0
+Missing or extra quantity,167,5874,2,"(0, 0.05, 0, 0.47)",96.41784200641817,99.47276315715908
+Missing or incorrect factual knowledge,97,3398,3,"(0.28, 0, 0.47, 1.67)",35.84336705780053,72.47755310113484
+Misunderstanding of the question,199,6966,1,"(0, 0.07, 0, 0)",100.0,100.0
+None of the above,60,2106,2,"(0.30, 0.04, 0, 0)",99.65997510115156,99.95238095238096
+Reached the correct solution but proceeded further,49,1718,2,"(0.27, 0, 0.24, 0)",85.82427776305325,73.8493059561487
+Unit conversion error,34,1204,3,"(0, 0.06, 0.18, 1.18)",78.1465061514802,79.40417833800187

@@ -1,0 +1,5 @@
+model,optimisation steps,validation loss,validation token accuracy,validation reward accuracy,validation reward margin,validation reward chosen,validation reward rejected
+SFT,1521,1.806,0.552,,,,
+DPO 10%,366,0.44,0.593,0.802,1.361,0.655,-0.706
+DPO 30%,1095,0.478,0.595,0.764,1.015,0.224,-0.791
+DPO 50%,1824,0.512,0.586,0.748,0.816,-0.112,-0.927

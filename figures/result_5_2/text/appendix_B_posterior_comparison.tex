@@ -1,0 +1,47 @@
+% =========================================================
+% Appendix: the chosen-vs-rejected posterior comparison over all pairs (Figure fig:posterior_shift) and the move
+% distribution of the candidate pool (Table tab:candidate_pool), with the full description. Section 5.2.2
+% ("Chosen--Rejected Probability Comparison") keeps a short summary of this appendix.
+% Figure: result_5_2/fig_5_8_posterior_shift.pdf (built by result_5_2.ipynb, Section 4); table: result_5_2/text/table_candidate_pool.tex (Section 8).
+% Add to pages/appendix.tex after the section of appendix_A_contexts.tex and copy the PDF into figures/.
+% =========================================================
+\section{Chosen and Rejected Responses over All Pairs}\label{app:posterior_comparison}
+Figure~\ref{fig:posterior_shift} extends the comparison of Figure~\ref{fig:context_ranking} from two contexts to all 24,298 pairs; Section~\ref{subsec:associations_in_pairs} summarizes it. For each error type and each move, the figure shows the mean classifier posterior of the chosen responses and of the rejected responses; the move with the largest utility of the error type is set in bold. In every error type, the chosen responses place more posterior mass on that move than the rejected responses. For the three error types whose largest utility belongs to \textit{Focus}, the mean \textit{Focus} posterior is 0.90 against 0.70 (\textit{numerical calculation error}), 0.89 against 0.68 (\textit{none of the above}), and 0.88 against 0.76 (\textit{reached the correct solution but proceeded further}), while \textit{Probing} and \textit{Telling}, both with zero utility, are lower on the chosen side (for example 0.07 against 0.17 and 0.03 against 0.13 for \textit{numerical calculation error}). For the three error types whose largest utility belongs to \textit{Telling}, the pattern is the mirror image. \textit{Telling} is higher on the chosen side: 0.11 against 0.02 (\textit{missing or extra quantity}), 0.11 against 0.02 (\textit{missing or incorrect factual knowledge}), and 0.13 against 0.02 (\textit{unit conversion error}). \textit{Probing} is also higher on the chosen side where it has a positive utility (0.20 against 0.10 and 0.15 against 0.09). \textit{Focus} is lower on the chosen side (0.69 against 0.87 and 0.72 against 0.89) or equal on both sides (0.78 against 0.78 for \textit{missing or extra quantity}, where \textit{Focus} has zero utility). In all six error types with a \textit{Focus} or \textit{Telling} utility, the differences therefore follow the utility table: the move with the largest utility is higher on the chosen side, and no move with zero utility is. For these three error types, however, the largest utility is not reflected in the largest posterior mass: \textit{Focus} remains the most probable move of the chosen responses (0.69--0.78), and \textit{Telling} reaches only 0.11--0.13. The utility table is thus reflected in the difference between the chosen and the rejected side, not in the dominant move of the chosen responses. \textit{Misunderstanding of the question} is the exception. Its only positive utility belongs to \textit{Generic}, but the candidates almost never realize this move, so the two sides differ only marginally on \textit{Generic} (0.004 against 0.002) and the scoring has nothing to prefer; the differences on \textit{Probing} (0.18 against 0.11) and \textit{Telling} (0.10 against 0.03) arise without a utility of their own.
+
+Two features of the figure are set by the candidate pool rather than by the utilities (Table~\ref{tab:candidate_pool}). The pool is nearly the same for every error type: \textit{Focus} is the top label of 45,104 of the 48,839 candidates and of 91 to 95\,\% of the candidates of every single error type. The differences between error types in Figure~\ref{fig:posterior_shift} therefore come from the utility column alone. And \textit{Telling} is the top label of only 1,498 candidates: a context holds two of them among about 70, and in 307 of the 693 contexts none at all, among them 81 of the 167 contexts of \textit{missing or extra quantity}, 49 of 97 for \textit{missing or incorrect factual knowledge}, and 15 of 34 for \textit{unit conversion error}. The chosen half of such a context therefore contains at most a few \textit{Telling} responses and is otherwise filled with \textit{Focus} responses, which bounds the chosen-side \textit{Telling} posterior at 0.11--0.13, although every \textit{Telling} candidate of a context lies in the chosen half (Figure~\ref{fig:context_ranking}).
+
+Two further qualifications apply to the \textit{Telling} side of the figure. First, the moves of the candidates are those assigned by the classifier of Section~\ref{subsec:selected_classifier}, which recovers about half of the \textit{Telling} utterances of its test set (F1 of 0.40; 6 of 13, five of them assigned to \textit{Focus}); the \textit{Telling} values reported here are therefore the classifier's view and may understate the difference in the realized move. Second, the \textit{Telling} utilities themselves rest on one to four first tutor turns (Figure~\ref{fig:associations}), because \textit{Telling} occurs in only 9 of the 693 first turns and PPMI grows with the ratio of a co-occurrence to this base rate, whereas \textit{Generic}, with a base rate of 76\,\%, cannot exceed a utility of 0.39; the size of the utilities is thus set by the move distribution of the source data, and the preference direction of the three \textit{Telling}-associated error types is based on few observations. Both points are discussed in Chapter~\ref{chapter:Discussions}.
+
+    \begin{figure}[!t]
+        \centering
+        \includegraphics[width=\textwidth]{figures/fig_5_8_posterior_shift.pdf}
+        \caption{Mean classifier posterior \(p_{\theta}(m\mid r)\) of the chosen responses (blue bars) and of the rejected responses (orange bars) for every move and error type, over the \(n\) pairs of the error type. The axis labels give the utility \(u(m,e)\) of the move for the error type; the move with the largest utility is set in bold.}
+        \label{fig:posterior_shift}
+    \end{figure}
+
+\begin{table}[!t]
+    \centering
+    \footnotesize
+    \setlength{\tabcolsep}{3pt}
+    \renewcommand{\arraystretch}{1.08}
+    \captionsetup{skip=4pt}
+    \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}Xrrrrrrrrrr@{}}
+        \toprule
+        & & \multicolumn{4}{c}{Mean posterior $p_{\theta}(m \mid r)$} & \multicolumn{3}{c}{Top label (\%)} & \multicolumn{2}{c}{\textit{Telling} per context} \\
+        \cmidrule(lr){3-6} \cmidrule(lr){7-9} \cmidrule(lr){10-11}
+        Student error type & Candidates & Focus & Generic & Probing & Telling & Focus & Probing & Telling & Mean & None (\%) \\
+        \midrule
+        Numerical calculation error & 6,104 & 0.798 & 0.003 & 0.123 & 0.077 & 92.8 & 3.3 & 3.9 & 2.8 & 30 \\
+        Missing or extra quantity & 11,808 & 0.782 & 0.003 & 0.156 & 0.060 & 92.0 & 5.3 & 2.7 & 1.9 & 49 \\
+        Missing or incorrect factual knowledge & 6,826 & 0.783 & 0.003 & 0.152 & 0.063 & 91.2 & 5.6 & 3.1 & 2.2 & 51 \\
+        Misunderstanding of the question & 13,997 & 0.789 & 0.003 & 0.142 & 0.066 & 92.2 & 4.6 & 3.1 & 2.2 & 45 \\
+        None of the above & 4,236 & 0.788 & 0.003 & 0.147 & 0.062 & 92.5 & 4.9 & 2.6 & 1.8 & 43 \\
+        Reached the correct solution but proceeded further & 3,451 & 0.823 & 0.003 & 0.112 & 0.063 & 94.9 & 2.5 & 2.6 & 1.8 & 41 \\
+        Unit conversion error & 2,417 & 0.803 & 0.003 & 0.121 & 0.073 & 93.0 & 3.2 & 3.8 & 2.7 & 44 \\
+        \midrule
+        \textbf{All candidates} & \textbf{48,839} & \textbf{0.791} & \textbf{0.003} & \textbf{0.141} & \textbf{0.065} & \textbf{92.4} & \textbf{4.5} & \textbf{3.1} & \textbf{2.2} & \textbf{44} \\
+        \bottomrule
+    \end{tabularx}
+    \caption{Move distribution of the candidate pool by student error type, before any ranking. For every error type: the mean classifier posterior of all its candidates for each move; the share of candidates whose top label is \textit{Focus}, \textit{Probing}, or \textit{Telling} (\textit{Generic} is the top label of at most 0.06\,\% of the candidates of any error type); and, in the last two columns, the mean number of \textit{Telling}-labelled candidates per dialogue context and the share of contexts without one. Every context holds about 70 candidates.}
+    \label{tab:candidate_pool}
+\end{table}
