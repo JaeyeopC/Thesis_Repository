@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 .env
+result_5_1.ipynb
 
 0__final_classification/cls_model/
 0__final_classification/further_pretraining_model/
