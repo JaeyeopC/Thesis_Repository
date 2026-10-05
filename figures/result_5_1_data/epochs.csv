@@ -1,0 +1,181 @@
+encoder,representation,objective,epoch,val_macro_f1,val_loss
+RoBERTa-base,Preceding-2,Weighted CE,1,0.267873,1.39809
+RoBERTa-base,Preceding-2,Weighted CE,2,0.145161,1.404743
+RoBERTa-base,Preceding-2,Weighted CE,3,0.289009,1.383661
+RoBERTa-base,Preceding-2,Weighted CE,4,0.339335,1.273317
+RoBERTa-base,Preceding-2,Weighted CE,5,0.352293,1.272128
+RoBERTa-base,Preceding-2,Weighted CE,6,0.41929,1.291156
+RoBERTa-base,Preceding-2,Weighted CE,7,0.427079,1.348879
+RoBERTa-base,Preceding-2,Weighted CE,8,0.437611,1.44841
+RoBERTa-base,Preceding-2,Weighted CE,9,0.443332,1.527066
+RoBERTa-base,Preceding-2,Weighted CE,10,0.474921,1.496044
+RoBERTa-base,Preceding-1,Weighted CE,1,0.204301,1.362315
+RoBERTa-base,Preceding-1,Weighted CE,2,0.236296,1.344006
+RoBERTa-base,Preceding-1,Weighted CE,3,0.229334,1.362624
+RoBERTa-base,Preceding-1,Weighted CE,4,0.467538,1.218223
+RoBERTa-base,Preceding-1,Weighted CE,5,0.434934,1.456298
+RoBERTa-base,Preceding-1,Weighted CE,6,0.436772,1.437908
+RoBERTa-base,Preceding-1,Weighted CE,7,0.460967,1.70559
+RoBERTa-base,Preceding-1,Weighted CE,8,0.443961,1.976566
+RoBERTa-base,Preceding-1,Weighted CE,9,0.409429,2.007071
+RoBERTa-base,Preceding-1,Weighted CE,10,0.414672,2.162046
+RoBERTa-base,Tutor-turn only,Weighted CE,1,0.383944,1.156494
+RoBERTa-base,Tutor-turn only,Weighted CE,2,0.368552,1.052397
+RoBERTa-base,Tutor-turn only,Weighted CE,3,0.456405,1.166428
+RoBERTa-base,Tutor-turn only,Weighted CE,4,0.423132,1.128769
+RoBERTa-base,Tutor-turn only,Weighted CE,5,0.444981,1.262015
+RoBERTa-base,Tutor-turn only,Weighted CE,6,0.57289,1.172576
+RoBERTa-base,Tutor-turn only,Weighted CE,7,0.564181,1.267102
+RoBERTa-base,Tutor-turn only,Weighted CE,8,0.588102,1.294946
+RoBERTa-base,Tutor-turn only,Weighted CE,9,0.571988,1.456113
+RoBERTa-base,Tutor-turn only,Weighted CE,10,0.597037,1.491404
+RoBERTa-base,Preceding-2,AUC max.,1,0.159794,3.516491
+RoBERTa-base,Preceding-2,AUC max.,2,0.256701,3.272298
+RoBERTa-base,Preceding-2,AUC max.,3,0.352135,2.88512
+RoBERTa-base,Preceding-2,AUC max.,4,0.422984,2.540872
+RoBERTa-base,Preceding-2,AUC max.,5,0.416643,2.361701
+RoBERTa-base,Preceding-2,AUC max.,6,0.407825,2.303228
+RoBERTa-base,Preceding-2,AUC max.,7,0.408957,2.249324
+RoBERTa-base,Preceding-2,AUC max.,8,0.397662,2.196687
+RoBERTa-base,Preceding-2,AUC max.,9,0.424036,2.257471
+RoBERTa-base,Preceding-2,AUC max.,10,0.440238,2.249451
+RoBERTa-base,Preceding-1,AUC max.,1,0.159794,3.515714
+RoBERTa-base,Preceding-1,AUC max.,2,0.159794,3.280056
+RoBERTa-base,Preceding-1,AUC max.,3,0.267544,2.978432
+RoBERTa-base,Preceding-1,AUC max.,4,0.430791,2.637461
+RoBERTa-base,Preceding-1,AUC max.,5,0.421959,2.513729
+RoBERTa-base,Preceding-1,AUC max.,6,0.387113,2.574208
+RoBERTa-base,Preceding-1,AUC max.,7,0.389602,2.562762
+RoBERTa-base,Preceding-1,AUC max.,8,0.43993,2.521691
+RoBERTa-base,Preceding-1,AUC max.,9,0.406831,2.527354
+RoBERTa-base,Preceding-1,AUC max.,10,0.395762,2.623766
+RoBERTa-base,Tutor-turn only,AUC max.,1,0.371235,2.588544
+RoBERTa-base,Tutor-turn only,AUC max.,2,0.526341,1.597131
+RoBERTa-base,Tutor-turn only,AUC max.,3,0.52795,1.477604
+RoBERTa-base,Tutor-turn only,AUC max.,4,0.583315,1.390239
+RoBERTa-base,Tutor-turn only,AUC max.,5,0.617736,1.384561
+RoBERTa-base,Tutor-turn only,AUC max.,6,0.614257,1.565987
+RoBERTa-base,Tutor-turn only,AUC max.,7,0.630629,1.440991
+RoBERTa-base,Tutor-turn only,AUC max.,8,0.623467,1.574924
+RoBERTa-base,Tutor-turn only,AUC max.,9,0.623658,1.527208
+RoBERTa-base,Tutor-turn only,AUC max.,10,0.627105,1.546076
+RoBERTa-base,Preceding-2,Focal loss,1,0.145161,0.81692
+RoBERTa-base,Preceding-2,Focal loss,2,0.204838,0.811493
+RoBERTa-base,Preceding-2,Focal loss,3,0.299918,0.794739
+RoBERTa-base,Preceding-2,Focal loss,4,0.350687,0.683413
+RoBERTa-base,Preceding-2,Focal loss,5,0.434774,0.67168
+RoBERTa-base,Preceding-2,Focal loss,6,0.444387,0.78852
+RoBERTa-base,Preceding-2,Focal loss,7,0.46535,0.914293
+RoBERTa-base,Preceding-2,Focal loss,8,0.410344,1.181802
+RoBERTa-base,Preceding-2,Focal loss,9,0.372034,1.369827
+RoBERTa-base,Preceding-2,Focal loss,10,0.43766,1.230315
+RoBERTa-base,Preceding-1,Focal loss,1,0.151003,0.767787
+RoBERTa-base,Preceding-1,Focal loss,2,0.216331,0.742156
+RoBERTa-base,Preceding-1,Focal loss,3,0.216173,0.800911
+RoBERTa-base,Preceding-1,Focal loss,4,0.429884,0.639428
+RoBERTa-base,Preceding-1,Focal loss,5,0.440042,0.955929
+RoBERTa-base,Preceding-1,Focal loss,6,0.341409,1.008214
+RoBERTa-base,Preceding-1,Focal loss,7,0.431991,1.293107
+RoBERTa-base,Preceding-1,Focal loss,8,0.407501,1.29666
+RoBERTa-base,Preceding-1,Focal loss,9,0.418532,1.310816
+RoBERTa-base,Preceding-1,Focal loss,10,0.459402,1.366225
+RoBERTa-base,Tutor-turn only,Focal loss,1,0.379189,0.604629
+RoBERTa-base,Tutor-turn only,Focal loss,2,0.370083,0.529495
+RoBERTa-base,Tutor-turn only,Focal loss,3,0.459053,0.652558
+RoBERTa-base,Tutor-turn only,Focal loss,4,0.440969,0.61563
+RoBERTa-base,Tutor-turn only,Focal loss,5,0.568159,0.807526
+RoBERTa-base,Tutor-turn only,Focal loss,6,0.550733,0.73193
+RoBERTa-base,Tutor-turn only,Focal loss,7,0.562521,0.913536
+RoBERTa-base,Tutor-turn only,Focal loss,8,0.587206,0.937545
+RoBERTa-base,Tutor-turn only,Focal loss,9,0.587552,0.9948
+RoBERTa-base,Tutor-turn only,Focal loss,10,0.572254,1.016554
+DAPT,Preceding-2,Weighted CE,1,0.220335,1.38075
+DAPT,Preceding-2,Weighted CE,2,0.213608,1.384751
+DAPT,Preceding-2,Weighted CE,3,0.30314,1.414065
+DAPT,Preceding-2,Weighted CE,4,0.360681,1.310774
+DAPT,Preceding-2,Weighted CE,5,0.356048,1.377795
+DAPT,Preceding-2,Weighted CE,6,0.440069,1.565344
+DAPT,Preceding-2,Weighted CE,7,0.419163,1.757941
+DAPT,Preceding-2,Weighted CE,8,0.439797,1.87424
+DAPT,Preceding-2,Weighted CE,9,0.437345,1.94153
+DAPT,Preceding-2,Weighted CE,10,0.48564,1.928996
+DAPT,Preceding-1,Weighted CE,1,0.153812,1.379519
+DAPT,Preceding-1,Weighted CE,2,0.281813,1.332072
+DAPT,Preceding-1,Weighted CE,3,0.232563,1.427694
+DAPT,Preceding-1,Weighted CE,4,0.400299,1.252455
+DAPT,Preceding-1,Weighted CE,5,0.395418,1.664084
+DAPT,Preceding-1,Weighted CE,6,0.318707,1.720398
+DAPT,Preceding-1,Weighted CE,7,0.459738,1.942233
+DAPT,Preceding-1,Weighted CE,8,0.488993,2.000527
+DAPT,Preceding-1,Weighted CE,9,0.406418,2.223774
+DAPT,Preceding-1,Weighted CE,10,0.465188,2.215837
+DAPT,Tutor-turn only,Weighted CE,1,0.367839,1.117484
+DAPT,Tutor-turn only,Weighted CE,2,0.480348,1.191508
+DAPT,Tutor-turn only,Weighted CE,3,0.530836,1.188751
+DAPT,Tutor-turn only,Weighted CE,4,0.534104,1.288
+DAPT,Tutor-turn only,Weighted CE,5,0.584482,1.353142
+DAPT,Tutor-turn only,Weighted CE,6,0.525887,1.765685
+DAPT,Tutor-turn only,Weighted CE,7,0.584842,1.814659
+DAPT,Tutor-turn only,Weighted CE,8,0.569523,2.32836
+DAPT,Tutor-turn only,Weighted CE,9,0.578111,2.440312
+DAPT,Tutor-turn only,Weighted CE,10,0.602716,2.461063
+DAPT,Preceding-2,AUC max.,1,0.159794,3.525475
+DAPT,Preceding-2,AUC max.,2,0.293063,3.392077
+DAPT,Preceding-2,AUC max.,3,0.282732,3.01457
+DAPT,Preceding-2,AUC max.,4,0.41761,2.795297
+DAPT,Preceding-2,AUC max.,5,0.407834,2.617492
+DAPT,Preceding-2,AUC max.,6,0.36689,2.621891
+DAPT,Preceding-2,AUC max.,7,0.377932,2.601285
+DAPT,Preceding-2,AUC max.,8,0.481169,2.513686
+DAPT,Preceding-2,AUC max.,9,0.35334,2.595554
+DAPT,Preceding-2,AUC max.,10,0.408672,2.536886
+DAPT,Preceding-1,AUC max.,1,0.159794,3.524031
+DAPT,Preceding-1,AUC max.,2,0.159794,3.378097
+DAPT,Preceding-1,AUC max.,3,0.366345,3.168463
+DAPT,Preceding-1,AUC max.,4,0.411531,2.807988
+DAPT,Preceding-1,AUC max.,5,0.372436,2.710856
+DAPT,Preceding-1,AUC max.,6,0.43272,2.570888
+DAPT,Preceding-1,AUC max.,7,0.39482,2.505519
+DAPT,Preceding-1,AUC max.,8,0.449357,2.429635
+DAPT,Preceding-1,AUC max.,9,0.472289,2.489485
+DAPT,Preceding-1,AUC max.,10,0.444247,2.455683
+DAPT,Tutor-turn only,AUC max.,1,0.401675,2.719997
+DAPT,Tutor-turn only,AUC max.,2,0.473515,1.631087
+DAPT,Tutor-turn only,AUC max.,3,0.431384,1.499709
+DAPT,Tutor-turn only,AUC max.,4,0.535163,1.515853
+DAPT,Tutor-turn only,AUC max.,5,0.526537,1.589862
+DAPT,Tutor-turn only,AUC max.,6,0.54965,1.582781
+DAPT,Tutor-turn only,AUC max.,7,0.561323,1.649228
+DAPT,Tutor-turn only,AUC max.,8,0.539451,1.727476
+DAPT,Tutor-turn only,AUC max.,9,0.545481,1.752061
+DAPT,Tutor-turn only,AUC max.,10,0.538706,1.783532
+DAPT,Preceding-2,Focal loss,1,0.166442,0.776532
+DAPT,Preceding-2,Focal loss,2,0.2836,0.818581
+DAPT,Preceding-2,Focal loss,3,0.32451,0.818151
+DAPT,Preceding-2,Focal loss,4,0.389173,0.721362
+DAPT,Preceding-2,Focal loss,5,0.38447,1.014697
+DAPT,Preceding-2,Focal loss,6,0.358049,1.271547
+DAPT,Preceding-2,Focal loss,7,0.391266,1.506971
+DAPT,Preceding-2,Focal loss,8,0.380489,1.468884
+DAPT,Preceding-2,Focal loss,9,0.390823,1.586757
+DAPT,Preceding-2,Focal loss,10,0.374455,1.638702
+DAPT,Preceding-1,Focal loss,1,0.183468,0.7881
+DAPT,Preceding-1,Focal loss,2,0.224367,0.761519
+DAPT,Preceding-1,Focal loss,3,0.180074,0.864015
+DAPT,Preceding-1,Focal loss,4,0.370564,0.880014
+DAPT,Preceding-1,Focal loss,5,0.43451,1.369042
+DAPT,Preceding-1,Focal loss,6,0.400092,1.103618
+DAPT,Preceding-1,Focal loss,7,0.464678,1.471005
+DAPT,Preceding-1,Focal loss,8,0.395991,1.474281
+DAPT,Preceding-1,Focal loss,9,0.40769,1.482636
+DAPT,Preceding-1,Focal loss,10,0.42324,1.442945
+DAPT,Tutor-turn only,Focal loss,1,0.432291,0.796062
+DAPT,Tutor-turn only,Focal loss,2,0.478468,0.577104
+DAPT,Tutor-turn only,Focal loss,3,0.531612,0.732683
+DAPT,Tutor-turn only,Focal loss,4,0.556062,0.944473
+DAPT,Tutor-turn only,Focal loss,5,0.548327,1.035104
+DAPT,Tutor-turn only,Focal loss,6,0.577301,1.022906
+DAPT,Tutor-turn only,Focal loss,7,0.55358,1.003362
+DAPT,Tutor-turn only,Focal loss,8,0.56716,1.169469
+DAPT,Tutor-turn only,Focal loss,9,0.572836,1.289094
+DAPT,Tutor-turn only,Focal loss,10,0.578945,1.293939
